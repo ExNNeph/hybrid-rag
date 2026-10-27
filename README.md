@@ -30,10 +30,10 @@ above the 0.95 threshold. It is still a miss, because the numbers differ, and it
 
 ![Cache hit, similarity 0.997, $0](docs/preview-cache-hit.png)
 
-**A partial answer**: there is no GraphQL endpoint in the docs. Claude gives the general rate limits it found
-and says what the docs do not cover:
+**A partial answer**: *Can I edit boards offline in the mobile app, and is there a dark mode?* The German
+customer FAQ answers the first half; for the second, Claude says the docs do not cover it instead of guessing:
 
-![General rate limits with citation, plus "not covered by the docs" for GraphQL](docs/preview-gap.png)
+![Offline editing answered from the German FAQ, dark mode marked as not covered by the docs](docs/preview-gap.png)
 
 ## Run it locally (step by step)
 

@@ -88,7 +88,8 @@ class Answer(BaseModel):
         if self.status != "answered":
             return NOT_FOUND[lang(self.question)] if self.status in ("not found", "unsupported") else self.error
         refs = self.cited
-        return " ".join(c.text + "".join(f" [{refs.index(x.source) + 1}]" for x in c.citations if x.found)
+        return " ".join(c.text + "".join(f" [{refs.index(i) + 1}]" for i in dict.fromkeys(
+                            x.source for x in c.citations if x.found))
                         + (" (⚠ unverified number)" if c.status == "flagged" else "") for c in self.kept)
 
     @property

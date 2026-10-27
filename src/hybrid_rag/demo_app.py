@@ -73,7 +73,8 @@ def show_answer(a: Answer) -> None:
         with st.container(border=True):
             st.markdown(" ".join(
                 f"*Not covered by the docs: {c.text}*" if c.status == "gap" else
-                c.text + "".join(f" **[{refs.index(x.source) + 1}]**" for x in c.citations if x.found)
+                c.text + "".join(f" **[{refs.index(i) + 1}]**" for i in dict.fromkeys(
+                    x.source for x in c.citations if x.found))
                 + (" ⚠️" if c.status == "flagged" else "") for c in a.kept))
     elif a.status in ("not found", "unsupported"):
         st.markdown(f"#### {a.text}")

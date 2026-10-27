@@ -55,7 +55,8 @@ def fake_llm(question, sources, key):
         return {"answerable": False, "claims": []}, 900, 20
     return {"answerable": True, "claims": [
         {"text": "Annual plans can be refunded within 30 days.",
-         "citations": [{"source": ANNUAL, "quote": "Annual plans can be refunded in full within 30 days of purchase."}]},
+         "citations": [{"source": ANNUAL, "quote": "Annual plans can be refunded in full within 30 days of purchase."},
+                       {"source": ANNUAL, "quote": "After 30 days there is no refund"}]},
         {"text": "You also get a free mug.", "citations": [{"source": ANNUAL, "quote": "and a free mug"}]},
         {"kind": "gap", "text": "The docs do not say if mugs are refunded.", "citations": []}]}, 1000, 100
 
