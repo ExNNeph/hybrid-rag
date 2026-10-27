@@ -78,6 +78,8 @@ def show_answer(a: Answer) -> None:
     for c in a.claims:
         if c.status == "dropped":
             st.error(f"Dropped, its quote is not in the cited source: {c.text}")
+        elif c.status == "gap":
+            st.info(f"Not covered by the docs: {c.text}")
         elif c.status == "flagged":
             st.warning(f"Flagged, a number in it is not in its quotes: {c.text}")
 

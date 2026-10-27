@@ -24,6 +24,15 @@ def test_verify_keeps_real_quotes_drops_invented_flags_wrong_numbers():
     assert [c.status for c in out] == ["supported", "dropped", "dropped", "dropped", "flagged"]
 
 
+def test_gap_claims_are_kept_and_question_numbers_count():
+    gap = Claim(text="The docs do not mention GraphQL.", citations=[], kind="gap")
+    trip = claim("First class is fine for a 4.5 hour trip.", "travel-expenses#trains-and-flights",
+                 "first class is allowed for journeys longer than 4 hours")
+    out = verify([gap, trip], CHUNKS, "Can I go first class on a 4.5 hour trip?")
+    assert [c.status for c in out] == ["gap", "supported"]
+    assert verify([trip.model_copy(deep=True)], CHUNKS)[0].status == "flagged"
+
+
 def test_quote_check_ignores_case_whitespace_and_typographic_quotes():
     c = claim("x", ANNUAL, "ANNUAL plans   can be refunded in full")
     assert verify([c], CHUNKS)[0].status == "supported"
@@ -47,7 +56,8 @@ def fake_llm(question, sources, key):
     return {"answerable": True, "claims": [
         {"text": "Annual plans can be refunded within 30 days.",
          "citations": [{"source": ANNUAL, "quote": "Annual plans can be refunded in full within 30 days of purchase."}]},
-        {"text": "You also get a free mug.", "citations": [{"source": ANNUAL, "quote": "and a free mug"}]}]}, 1000, 100
+        {"text": "You also get a free mug.", "citations": [{"source": ANNUAL, "quote": "and a free mug"}]},
+        {"kind": "gap", "text": "The docs do not say if mugs are refunded.", "citations": []}]}, 1000, 100
 
 
 def test_pipeline_with_cache(monkeypatch, tmp_path):
@@ -55,8 +65,9 @@ def test_pipeline_with_cache(monkeypatch, tmp_path):
     monkeypatch.setenv("ANTHROPIC_API_KEY", "x")
     index, cache = Index(), SemanticCache(path=tmp_path / "answers.json")
     a = qa.answer("Can I get a refund on an annual plan?", index, cache)
-    assert a.status == "answered" and a.text == "Annual plans can be refunded within 30 days. [1]"
-    assert a.cited == [ANNUAL] and [c.status for c in a.claims] == ["supported", "dropped"]
+    assert a.status == "answered" and a.text == ("Annual plans can be refunded within 30 days. [1] "
+                                                 "The docs do not say if mugs are refunded.")
+    assert a.cited == [ANNUAL] and [c.status for c in a.claims] == ["supported", "dropped", "gap"]
     assert a.cost == 1000 * 4 / 1e6 + 100 * 20 / 1e6
 
     b = qa.answer("Can I get a refund on an annual plan", index, cache)  # reworded: served from the cache

@@ -34,7 +34,41 @@
     "api-reference#authentication",
     "api-reference#api-versioning"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "TB-4031 means the board is archived and read-only. [1] To write to the board again, you have to unarchive it first. [1]",
+  "cost": 0.00834,
+  "claims": [
+   {
+    "text": "TB-4031 means the board is archived and read-only.",
+    "citations": [
+     {
+      "source": "api-reference#error-codes",
+      "quote": "TB-4031: the board is archived and read-only; unarchive it before writing to it.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "To write to the board again, you have to unarchive it first.",
+    "citations": [
+     {
+      "source": "api-reference#error-codes",
+      "quote": "TB-4031: the board is archived and read-only; unarchive it before writing to it.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "api-reference#error-codes",
+   "api-reference#rate-limits",
+   "api-reference#pagination",
+   "api-reference#authentication"
+  ],
+  "correct": true
  },
  "a02": {
   "question": "Which form do I use to submit travel expenses?",
@@ -71,7 +105,52 @@
     "travel-expenses#using-your-own-car",
     "travel-expenses#hotels"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Travel expenses are submitted with expense form EX-2 in the finance portal. [1] Submit within 30 days after the trip and include a photo of every receipt. [1] Expenses submitted more than 3 months after the trip are not reimbursed. [1]",
+  "cost": 0.01076,
+  "claims": [
+   {
+    "text": "Travel expenses are submitted with expense form EX-2 in the finance portal.",
+    "citations": [
+     {
+      "source": "travel-expenses#submitting-expenses",
+      "quote": "Submit expenses with the expense form EX-2 in the finance portal within 30 days after the trip, with a photo of every receipt.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Submit within 30 days after the trip and include a photo of every receipt.",
+    "citations": [
+     {
+      "source": "travel-expenses#submitting-expenses",
+      "quote": "Submit expenses with the expense form EX-2 in the finance portal within 30 days after the trip, with a photo of every receipt.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Expenses submitted more than 3 months after the trip are not reimbursed.",
+    "citations": [
+     {
+      "source": "travel-expenses#submitting-expenses",
+      "quote": "Expenses submitted later than 3 months after the trip are not reimbursed.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "travel-expenses#submitting-expenses",
+   "travel-expenses#booking-business-travel",
+   "travel-expenses#company-credit-cards",
+   "travel-expenses#using-your-own-car"
+  ],
+  "correct": true
  },
  "a03": {
   "question": "How do I request software that is not in the self-service catalogue?",
@@ -108,7 +187,52 @@
     "it-security#using-ai-tools",
     "api-reference#webhooks"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "To get software that is not in the self-service catalogue, open a request with the form IT-12 in the IT portal. [1] IT then checks the licence and data protection within 3 business days. [1] Browser extensions that read website content are not allowed. [1]",
+  "cost": 0.00999,
+  "claims": [
+   {
+    "text": "To get software that is not in the self-service catalogue, open a request with the form IT-12 in the IT portal.",
+    "citations": [
+     {
+      "source": "it-security#installing-software",
+      "quote": "For anything else, open a request with the form IT-12 in the IT portal; IT checks licence and data protection within 3 business days.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "IT then checks the licence and data protection within 3 business days.",
+    "citations": [
+     {
+      "source": "it-security#installing-software",
+      "quote": "For anything else, open a request with the form IT-12 in the IT portal; IT checks licence and data protection within 3 business days.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Browser extensions that read website content are not allowed.",
+    "citations": [
+     {
+      "source": "it-security#installing-software",
+      "quote": "Browser extensions that read website content are not allowed.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "it-security#installing-software",
+   "api-reference#authentication",
+   "api-reference#pagination",
+   "it-security#using-ai-tools"
+  ],
+  "correct": true
  },
  "a04": {
   "question": "In which cloud region is customer data hosted?",
@@ -145,7 +269,52 @@
     "support-sla#support-channels-and-hours",
     "support-sla#first-response-times"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Customer data is hosted in the cloud region eu-central-1, in data centres in Frankfurt am Main, Germany. [1] Backups are kept in a second data centre in the same region. [1] Customer data is not transferred outside the European Union. [1]",
+  "cost": 0.01028,
+  "claims": [
+   {
+    "text": "Customer data is hosted in the cloud region eu-central-1, in data centres in Frankfurt am Main, Germany.",
+    "citations": [
+     {
+      "source": "security-data#where-the-data-is-stored",
+      "quote": "All customer data is stored in data centres in Frankfurt am Main, Germany (cloud region eu-central-1).",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Backups are kept in a second data centre in the same region.",
+    "citations": [
+     {
+      "source": "security-data#where-the-data-is-stored",
+      "quote": "Backups are kept in a second data centre in the same region.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Customer data is not transferred outside the European Union.",
+    "citations": [
+     {
+      "source": "security-data#where-the-data-is-stored",
+      "quote": "We do not transfer customer data outside the European Union.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "security-data#where-the-data-is-stored",
+   "remote-work#working-from-cafes-and-public-places",
+   "api-reference#authentication",
+   "support-sla#support-channels-and-hours"
+  ],
+  "correct": true
  },
  "a05": {
   "question": "Which plan includes SCIM user provisioning?",
@@ -183,7 +352,46 @@
     "pricing-plans#free-plan",
     "support-sla#uptime-commitment"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "SCIM user provisioning is only included in the Enterprise plan. [1] [2] The Enterprise plan is priced individually and starts at 50 seats. [2]",
+  "cost": 0.01046,
+  "claims": [
+   {
+    "text": "SCIM user provisioning is only included in the Enterprise plan.",
+    "citations": [
+     {
+      "source": "security-data#single-sign-on-and-two-factor-authentication",
+      "quote": "Automatic user provisioning with SCIM is Enterprise only.",
+      "found": true
+     },
+     {
+      "source": "pricing-plans#enterprise-plan",
+      "quote": "It adds SCIM user provisioning, a dedicated customer success manager, 24/7 support for critical incidents, custom data retention rules and the option to sign our data processing agreement with individual changes.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "The Enterprise plan is priced individually and starts at 50 seats.",
+    "citations": [
+     {
+      "source": "pricing-plans#enterprise-plan",
+      "quote": "Enterprise is priced individually and starts at 50 seats.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "pricing-plans#enterprise-plan",
+   "security-data#single-sign-on-and-two-factor-authentication",
+   "billing-refunds#downgrading-a-plan",
+   "pricing-plans#free-plan"
+  ],
+  "correct": true
  },
  "a06": {
   "question": "How are webhook requests signed?",
@@ -220,7 +428,41 @@
     "api-reference#error-codes",
     "api-reference#pagination"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Each webhook request is signed with HMAC-SHA256. [1] The signature is sent in the X-Talvi-Signature header. [1]",
+  "cost": 0.00895,
+  "claims": [
+   {
+    "text": "Each webhook request is signed with HMAC-SHA256.",
+    "citations": [
+     {
+      "source": "api-reference#webhooks",
+      "quote": "Each request is signed with HMAC-SHA256 in the X-Talvi-Signature header.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "The signature is sent in the X-Talvi-Signature header.",
+    "citations": [
+     {
+      "source": "api-reference#webhooks",
+      "quote": "Each request is signed with HMAC-SHA256 in the X-Talvi-Signature header.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "api-reference#webhooks",
+   "api-reference#authentication",
+   "api-reference#rate-limits",
+   "api-reference#error-codes"
+  ],
+  "correct": true
  },
  "a07": {
   "question": "What is the API rate limit on the Business plan?",
@@ -257,7 +499,41 @@
     "support-sla#service-credits",
     "api-reference#api-versioning"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "On the Business plan, the API allows 300 requests per minute per token. [1] If the limit is exceeded, the API returns HTTP 429 with error code TB-4290. The Retry-After header gives the number of seconds to wait. [1]",
+  "cost": 0.00968,
+  "claims": [
+   {
+    "text": "On the Business plan, the API allows 300 requests per minute per token.",
+    "citations": [
+     {
+      "source": "api-reference#rate-limits",
+      "quote": "The API allows 60 requests per minute per token on the Team plan and 300 requests per minute on Business.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "If the limit is exceeded, the API returns HTTP 429 with error code TB-4290. The Retry-After header gives the number of seconds to wait.",
+    "citations": [
+     {
+      "source": "api-reference#rate-limits",
+      "quote": "When the limit is exceeded the API answers with HTTP 429 and error code TB-4290; the Retry-After header says how many seconds to wait.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "api-reference#rate-limits",
+   "support-sla#uptime-commitment",
+   "api-reference#authentication",
+   "support-sla#service-credits"
+  ],
+  "correct": true
  },
  "a08": {
   "question": "When will API v1 be switched off?",
@@ -294,7 +570,41 @@
     "api-reference#webhooks",
     "billing-refunds#refunds-for-monthly-plans"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "API v1 will be switched off on 30 June 2027. [1] The current API version is v2, and an old version is supported for at least 12 months after a successor is released. [1]",
+  "cost": 0.00882,
+  "claims": [
+   {
+    "text": "API v1 will be switched off on 30 June 2027.",
+    "citations": [
+     {
+      "source": "api-reference#api-versioning",
+      "quote": "API v1 will be switched off on 30 June 2027.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "The current API version is v2, and an old version is supported for at least 12 months after a successor is released.",
+    "citations": [
+     {
+      "source": "api-reference#api-versioning",
+      "quote": "The current API version is v2. Breaking changes only happen in a new major version, and an old version is supported for at least 12 months after a successor is released.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "api-reference#api-versioning",
+   "api-reference#authentication",
+   "support-sla#uptime-commitment",
+   "api-reference#webhooks"
+  ],
+  "correct": true
  },
  "a09": {
   "question": "Can I get my money back on a yearly subscription?",
@@ -328,7 +638,52 @@
     "billing-refunds#invoices-and-vat",
     "support-sla#service-credits"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Yes, but only within 30 days of purchase: annual plans can then be refunded in full. [1] After 30 days there is no refund, but you can cancel the renewal at any time and keep using the plan until the end of the paid year. [1] Seats added during the year are refunded pro rata, but only within 30 days of adding them. [1]",
+  "cost": 0.01149,
+  "claims": [
+   {
+    "text": "Yes, but only within 30 days of purchase: annual plans can then be refunded in full.",
+    "citations": [
+     {
+      "source": "billing-refunds#refunds-for-annual-plans",
+      "quote": "Annual plans can be refunded in full within 30 days of purchase.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "After 30 days there is no refund, but you can cancel the renewal at any time and keep using the plan until the end of the paid year.",
+    "citations": [
+     {
+      "source": "billing-refunds#refunds-for-annual-plans",
+      "quote": "After 30 days there is no refund, but you can cancel the renewal at any time and keep the plan until the end of the paid year.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Seats added during the year are refunded pro rata, but only within 30 days of adding them.",
+    "citations": [
+     {
+      "source": "billing-refunds#refunds-for-annual-plans",
+      "quote": "Seats added during the year are refunded pro rata only within 30 days of adding them.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "billing-refunds#refunds-for-annual-plans",
+   "billing-refunds#payment-methods",
+   "travel-expenses#submitting-expenses",
+   "billing-refunds#invoices-and-vat"
+  ],
+  "correct": true
  },
  "a10": {
   "question": "Is a refund possible for a monthly plan?",
@@ -365,7 +720,41 @@
     "billing-refunds#downgrading-a-plan",
     "travel-expenses#submitting-expenses"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Yes, but only if the workspace was upgraded for the first time: a monthly plan can then be refunded in full within 14 days of the first payment. [1] Renewals of a monthly plan are not refunded. Cancelling stops the next charge, and the plan stays active until the end of the paid month. [1]",
+  "cost": 0.01045,
+  "claims": [
+   {
+    "text": "Yes, but only if the workspace was upgraded for the first time: a monthly plan can then be refunded in full within 14 days of the first payment.",
+    "citations": [
+     {
+      "source": "billing-refunds#refunds-for-monthly-plans",
+      "quote": "Monthly plans can be refunded in full within 14 days of the first payment, if the workspace was upgraded for the first time.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Renewals of a monthly plan are not refunded. Cancelling stops the next charge, and the plan stays active until the end of the paid month.",
+    "citations": [
+     {
+      "source": "billing-refunds#refunds-for-monthly-plans",
+      "quote": "Renewals of a monthly plan are not refunded; cancelling stops the next charge, and the plan stays active until the end of the paid month.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "billing-refunds#refunds-for-monthly-plans",
+   "billing-refunds#refunds-for-annual-plans",
+   "billing-refunds#payment-methods",
+   "billing-refunds#downgrading-a-plan"
+  ],
+  "correct": true
  },
  "a11": {
   "question": "My work laptop was stolen on Saturday. What do I have to do?",
@@ -402,7 +791,52 @@
     "security-data#data-deletion-after-cancellation",
     "eintritt-austritt#erster-arbeitstag"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Report the stolen laptop to it@talvi.example within 1 hour. This applies on a Saturday too, because the deadline also holds outside working hours. [1] IT will then lock and wipe the laptop remotely. [1] Because the laptop was stolen, you also have to report it to the police and send the report number to IT. [1]",
+  "cost": 0.01103,
+  "claims": [
+   {
+    "text": "Report the stolen laptop to it@talvi.example within 1 hour. This applies on a Saturday too, because the deadline also holds outside working hours.",
+    "citations": [
+     {
+      "source": "it-security#lost-or-stolen-devices",
+      "quote": "Report a lost or stolen laptop or phone to it@talvi.example within 1 hour, also outside working hours.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "IT will then lock and wipe the laptop remotely.",
+    "citations": [
+     {
+      "source": "it-security#lost-or-stolen-devices",
+      "quote": "IT will lock and wipe the device remotely.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Because the laptop was stolen, you also have to report it to the police and send the report number to IT.",
+    "citations": [
+     {
+      "source": "it-security#lost-or-stolen-devices",
+      "quote": "If it was stolen, also report it to the police and send the report number to IT.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "it-security#lost-or-stolen-devices",
+   "eintritt-austritt#letzter-arbeitstag",
+   "remote-work#working-from-cafes-and-public-places",
+   "security-data#data-deletion-after-cancellation"
+  ],
+  "correct": true
  },
  "a12": {
   "question": "Can I work from my flat in Spain for a few weeks?",
@@ -439,7 +873,41 @@
     "security-data#data-deletion-after-cancellation",
     "kunden-faq#gibt-es-eine-testphase"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Yes, within limits: you can work from another EU country, such as Spain, for up to 20 working days per calendar year. A few weeks is fine as long as it stays within that total. [1] You must tell HR at least 2 weeks in advance so they can apply for the A1 social security certificate. [1]",
+  "cost": 0.01455,
+  "claims": [
+   {
+    "text": "Yes, within limits: you can work from another EU country, such as Spain, for up to 20 working days per calendar year. A few weeks is fine as long as it stays within that total.",
+    "citations": [
+     {
+      "source": "remote-work#working-from-abroad",
+      "quote": "You can work from another EU country for up to 20 working days per calendar year.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "You must tell HR at least 2 weeks in advance so they can apply for the A1 social security certificate.",
+    "citations": [
+     {
+      "source": "remote-work#working-from-abroad",
+      "quote": "Tell HR at least 2 weeks in advance so that we can apply for the A1 certificate for social security.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "billing-refunds#failed-payments",
+   "remote-work#working-from-abroad",
+   "it-security#lost-or-stolen-devices",
+   "security-data#data-deletion-after-cancellation"
+  ],
+  "correct": true
  },
  "a13": {
   "question": "How much can I spend on a hotel night for a business trip to Hamburg?",
@@ -476,7 +944,41 @@
     "travel-expenses#per-diem-and-meals",
     "pricing-plans#team-plan"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Hamburg is in Germany, where the hotel limit is 150 euros per night, breakfast included. [1] A more expensive hotel needs prior approval from finance, for example during trade fairs when prices rise. [1]",
+  "cost": 0.00935,
+  "claims": [
+   {
+    "text": "Hamburg is in Germany, where the hotel limit is 150 euros per night, breakfast included.",
+    "citations": [
+     {
+      "source": "travel-expenses#hotels",
+      "quote": "The hotel limit is 150 euros per night in Germany and 200 euros per night in London, Paris and other expensive cities abroad, breakfast included.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "A more expensive hotel needs prior approval from finance, for example during trade fairs when prices rise.",
+    "citations": [
+     {
+      "source": "travel-expenses#hotels",
+      "quote": "More expensive hotels need prior approval from finance, for example during trade fairs when prices rise.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "benefits#essen-und-getraenke",
+   "travel-expenses#hotels",
+   "travel-expenses#using-your-own-car",
+   "travel-expenses#per-diem-and-meals"
+  ],
+  "correct": true
  },
  "a14": {
   "question": "What happens when our card payment does not go through?",
@@ -513,7 +1015,52 @@
     "support-sla#service-credits",
     "api-reference#webhooks"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "The failed payment is retried after 3 days and again after 7 days, and the billing contact gets an email each time. [1] If the payment is still missing after a 14-day grace period, the workspace becomes read-only until the open invoice is paid. [1] No data is deleted because of a failed payment. [1]",
+  "cost": 0.01047,
+  "claims": [
+   {
+    "text": "The failed payment is retried after 3 days and again after 7 days, and the billing contact gets an email each time.",
+    "citations": [
+     {
+      "source": "billing-refunds#failed-payments",
+      "quote": "If a payment fails, we retry it after 3 and after 7 days and email the billing contact each time.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "If the payment is still missing after a 14-day grace period, the workspace becomes read-only until the open invoice is paid.",
+    "citations": [
+     {
+      "source": "billing-refunds#failed-payments",
+      "quote": "After a grace period of 14 days without payment, the workspace becomes read-only until the open invoice is paid.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "No data is deleted because of a failed payment.",
+    "citations": [
+     {
+      "source": "billing-refunds#failed-payments",
+      "quote": "No data is deleted because of a failed payment.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "billing-refunds#failed-payments",
+   "support-sla#escalation",
+   "billing-refunds#payment-methods",
+   "support-sla#service-credits"
+  ],
+  "correct": true
  },
  "a15": {
   "question": "How quickly does support answer when the whole app is down and we are on Business?",
@@ -550,7 +1097,57 @@
     "api-reference#rate-limits",
     "api-reference#webhooks"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "On the Business plan, the first response time is 1 hour for P1, 4 business hours for P2 and 1 business day for P3 and P4. [1] Business plans also include a 99.9% monthly uptime commitment for the web app and the API. [2] If monthly uptime falls below 99.9%, Business customers can claim a credit of 10% of that month's fee, or 25% below 99.0%. [3]",
+  "cost": 0.01562,
+  "claims": [
+   {
+    "text": "On the Business plan, the first response time is 1 hour for P1, 4 business hours for P2 and 1 business day for P3 and P4.",
+    "citations": [
+     {
+      "source": "support-sla#first-response-times",
+      "quote": "On Business, 1 hour for P1, 4 business hours for P2 and 1 business day for P3 and P4.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "The sources do not say which priority level a complete outage of the app is assigned, so they do not confirm that it counts as P1 (1 hour).",
+    "citations": [],
+    "status": "dropped"
+   },
+   {
+    "text": "Business plans also include a 99.9% monthly uptime commitment for the web app and the API.",
+    "citations": [
+     {
+      "source": "support-sla#uptime-commitment",
+      "quote": "Business and Enterprise plans come with a 99.9% monthly uptime commitment for the web app and the API.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "If monthly uptime falls below 99.9%, Business customers can claim a credit of 10% of that month's fee, or 25% below 99.0%.",
+    "citations": [
+     {
+      "source": "support-sla#service-credits",
+      "quote": "If monthly uptime falls below 99.9%, Business and Enterprise customers can claim a credit of 10% of that month's fee. Below 99.0% the credit is 25%.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "support-sla#uptime-commitment",
+   "support-sla#first-response-times",
+   "support-sla#service-credits",
+   "api-reference#rate-limits"
+  ],
+  "correct": true
  },
  "a16": {
   "question": "What do we get back if Talvi Boards was down a lot last month?",
@@ -587,7 +1184,18 @@
     "pricing-plans#team-plan",
     "pricing-plans#discounts-for-non-profits-and-education"
    ]
-  }
+  },
+  "status": "not found",
+  "answer": "Not in the docs.",
+  "cost": 0.00687,
+  "claims": [],
+  "sources_seen": [
+   "pricing-plans#adding-and-removing-seats",
+   "support-sla#priority-levels",
+   "pricing-plans#free-trial",
+   "pricing-plans#team-plan"
+  ],
+  "correct": false
  },
  "a17": {
   "question": "Do schools pay less?",
@@ -621,7 +1229,52 @@
     "pricing-plans#adding-and-removing-seats",
     "pricing-plans#team-plan"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Yes. Schools, universities and registered non-profit organisations get 50% off the Team and Business plans. [1] To get the discount, a school has to send proof of its status to billing@talvi.example. [1] The education discount cannot be combined with other promotions. [1]",
+  "cost": 0.01055,
+  "claims": [
+   {
+    "text": "Yes. Schools, universities and registered non-profit organisations get 50% off the Team and Business plans.",
+    "citations": [
+     {
+      "source": "pricing-plans#discounts-for-non-profits-and-education",
+      "quote": "Registered non-profit organisations, schools and universities get 50% off the Team and Business plans.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "To get the discount, a school has to send proof of its status to billing@talvi.example.",
+    "citations": [
+     {
+      "source": "pricing-plans#discounts-for-non-profits-and-education",
+      "quote": "Send proof of status to billing@talvi.example.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "The education discount cannot be combined with other promotions.",
+    "citations": [
+     {
+      "source": "pricing-plans#discounts-for-non-profits-and-education",
+      "quote": "The discount cannot be combined with other promotions.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "pricing-plans#discounts-for-non-profits-and-education",
+   "billing-refunds#refunds-for-annual-plans",
+   "benefits#essen-und-getraenke",
+   "pricing-plans#adding-and-removing-seats"
+  ],
+  "correct": true
  },
  "a18": {
   "question": "How long can we try the product before paying?",
@@ -658,7 +1311,41 @@
     "billing-refunds#failed-payments",
     "pricing-plans#free-trial"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "New workspaces can try the Business plan for free for 14 days, without a credit card. [1] If you don't choose a paid plan after the trial, the workspace automatically switches to the Free plan. [1]",
+  "cost": 0.0098,
+  "claims": [
+   {
+    "text": "New workspaces can try the Business plan for free for 14 days, without a credit card.",
+    "citations": [
+     {
+      "source": "kunden-faq#gibt-es-eine-testphase",
+      "quote": "Neue Workspaces können den Business-Plan 14 Tage kostenlos testen, ohne Kreditkarte.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "If you don't choose a paid plan after the trial, the workspace automatically switches to the Free plan.",
+    "citations": [
+     {
+      "source": "kunden-faq#gibt-es-eine-testphase",
+      "quote": "Nach der Testphase gilt automatisch der Free-Plan, falls Sie keinen bezahlten Plan wählen.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "billing-refunds#refunds-for-annual-plans",
+   "kunden-faq#gibt-es-eine-testphase",
+   "billing-refunds#refunds-for-monthly-plans",
+   "billing-refunds#failed-payments"
+  ],
+  "correct": true
  },
  "a19": {
   "question": "How often are backups made and how long are they kept?",
@@ -695,7 +1382,41 @@
     "api-reference#webhooks",
     "billing-refunds#failed-payments"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "All workspaces are backed up every 6 hours. [1] Backups are kept for 35 days. [1]",
+  "cost": 0.00818,
+  "claims": [
+   {
+    "text": "All workspaces are backed up every 6 hours.",
+    "citations": [
+     {
+      "source": "security-data#backups",
+      "quote": "We back up all workspaces every 6 hours and keep the backups for 35 days.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Backups are kept for 35 days.",
+    "citations": [
+     {
+      "source": "security-data#backups",
+      "quote": "We back up all workspaces every 6 hours and keep the backups for 35 days.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "security-data#backups",
+   "security-data#data-deletion-after-cancellation",
+   "billing-refunds#refunds-for-annual-plans",
+   "api-reference#webhooks"
+  ],
+  "correct": true
  },
  "a20": {
   "question": "Can I take a first-class train from Frankfurt to Berlin, a 4.5 hour journey?",
@@ -732,7 +1453,52 @@
     "travel-expenses#booking-business-travel",
     "urlaub-abwesenheit#urlaub-beantragen"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Yes. Within Germany you travel by train, and while second class is the default, first class is allowed for journeys longer than 4 hours, so a 4.5-hour journey qualifies. [1] (⚠ unverified number) The trip still needs approval from your team lead before you book it. [2] Book the train through the company travel portal so the invoice goes directly to accounting. [2]",
+  "cost": 0.01128,
+  "claims": [
+   {
+    "text": "Yes. Within Germany you travel by train, and while second class is the default, first class is allowed for journeys longer than 4 hours, so a 4.5-hour journey qualifies.",
+    "citations": [
+     {
+      "source": "travel-expenses#trains-and-flights",
+      "quote": "Second class is the default; first class is allowed for journeys longer than 4 hours.",
+      "found": true
+     }
+    ],
+    "status": "flagged"
+   },
+   {
+    "text": "The trip still needs approval from your team lead before you book it.",
+    "citations": [
+     {
+      "source": "travel-expenses#booking-business-travel",
+      "quote": "All business trips need approval from your team lead before booking.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Book the train through the company travel portal so the invoice goes directly to accounting.",
+    "citations": [
+     {
+      "source": "travel-expenses#booking-business-travel",
+      "quote": "Book trains, flights and hotels through the company travel portal so that the invoices go directly to accounting.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "travel-expenses#trains-and-flights",
+   "travel-expenses#using-your-own-car",
+   "urlaub-abwesenheit#urlaubsanspruch",
+   "travel-expenses#booking-business-travel"
+  ],
+  "correct": true
  },
  "a21": {
   "question": "Wie viele Urlaubstage habe ich bei einer 4-Tage-Woche?",
@@ -769,7 +1535,41 @@
     "urlaub-abwesenheit#sonderurlaub",
     "urlaub-abwesenheit#elternzeit"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Bei einer 4-Tage-Woche haben Sie 24 Urlaubstage pro Kalenderjahr, da Teilzeitbeschäftigte anteilig Urlaub nach Arbeitstagen pro Woche erhalten. [1] Im Eintrittsjahr wird der Urlaub pro vollem Monat anteilig berechnet. [1]",
+  "cost": 0.01315,
+  "claims": [
+   {
+    "text": "Bei einer 4-Tage-Woche haben Sie 24 Urlaubstage pro Kalenderjahr, da Teilzeitbeschäftigte anteilig Urlaub nach Arbeitstagen pro Woche erhalten.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#urlaubsanspruch",
+      "quote": "Teilzeitbeschäftigte erhalten anteilig Urlaub nach Arbeitstagen pro Woche: Wer an 3 Tagen pro Woche arbeitet, hat 18 Urlaubstage, bei 4 Tagen sind es 24 Urlaubstage.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Im Eintrittsjahr wird der Urlaub pro vollem Monat anteilig berechnet.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#urlaubsanspruch",
+      "quote": "Im Eintrittsjahr wird der Urlaub pro vollem Monat anteilig berechnet.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "urlaub-abwesenheit#urlaubsanspruch",
+   "urlaub-abwesenheit#urlaub-beantragen",
+   "support-sla#first-response-times",
+   "urlaub-abwesenheit#sonderurlaub"
+  ],
+  "correct": true
  },
  "a22": {
   "question": "Bis wann muss ich Resturlaub aus dem Vorjahr nehmen?",
@@ -806,7 +1606,52 @@
     "eintritt-austritt#probezeit",
     "urlaub-abwesenheit#elternzeit"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Resturlaub aus dem Vorjahr kann bis zum 31. März des Folgejahres übertragen werden, muss also bis dahin genommen werden. [1] Nach dem 31. März verfällt der Resturlaub, sofern das Unternehmen rechtzeitig auf den drohenden Verfall hingewiesen hat. [1] (⚠ unverified number) Eine Auszahlung von nicht genommenem Urlaub ist nur beim Austritt möglich. [1]",
+  "cost": 0.01378,
+  "claims": [
+   {
+    "text": "Resturlaub aus dem Vorjahr kann bis zum 31. März des Folgejahres übertragen werden, muss also bis dahin genommen werden.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#resturlaub-und-uebertrag",
+      "quote": "Nicht genommener Urlaub kann bis zum 31. März des Folgejahres übertragen werden.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Nach dem 31. März verfällt der Resturlaub, sofern das Unternehmen rechtzeitig auf den drohenden Verfall hingewiesen hat.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#resturlaub-und-uebertrag",
+      "quote": "Danach verfällt er, sofern wir rechtzeitig auf den drohenden Verfall hingewiesen haben.",
+      "found": true
+     }
+    ],
+    "status": "flagged"
+   },
+   {
+    "text": "Eine Auszahlung von nicht genommenem Urlaub ist nur beim Austritt möglich.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#resturlaub-und-uebertrag",
+      "quote": "Eine Auszahlung von Urlaub ist nur beim Austritt möglich.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "urlaub-abwesenheit#resturlaub-und-uebertrag",
+   "urlaub-abwesenheit#sonderurlaub",
+   "urlaub-abwesenheit#urlaub-beantragen",
+   "eintritt-austritt#probezeit"
+  ],
+  "correct": true
  },
  "a23": {
   "question": "Ab welchem Krankheitstag brauche ich eine AU?",
@@ -841,7 +1686,52 @@
     "eintritt-austritt#arbeitszeugnis",
     "arbeitszeit#kernzeit"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Eine Arbeitsunfähigkeitsbescheinigung (AU) brauchst du ab dem dritten Krankheitstag. [1] Bist du gesetzlich versichert, wird die AU elektronisch von der Krankenkasse abgerufen. [1] Unabhängig davon meldest du dich schon am ersten Krankheitstag bis 10 Uhr bei der Teamleitung und im HR-Portal krank. [1]",
+  "cost": 0.01542,
+  "claims": [
+   {
+    "text": "Eine Arbeitsunfähigkeitsbescheinigung (AU) brauchst du ab dem dritten Krankheitstag.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#krankmeldung",
+      "quote": "Ab dem dritten Krankheitstag ist eine Arbeitsunfähigkeitsbescheinigung nötig; sie wird bei gesetzlich Versicherten elektronisch von der Krankenkasse abgerufen.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Bist du gesetzlich versichert, wird die AU elektronisch von der Krankenkasse abgerufen.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#krankmeldung",
+      "quote": "Ab dem dritten Krankheitstag ist eine Arbeitsunfähigkeitsbescheinigung nötig; sie wird bei gesetzlich Versicherten elektronisch von der Krankenkasse abgerufen.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Unabhängig davon meldest du dich schon am ersten Krankheitstag bis 10 Uhr bei der Teamleitung und im HR-Portal krank.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#krankmeldung",
+      "quote": "Wer krank ist, meldet sich am ersten Tag bis 10 Uhr bei der Teamleitung und im HR-Portal.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "urlaub-abwesenheit#krankmeldung",
+   "urlaub-abwesenheit#sonderurlaub",
+   "urlaub-abwesenheit#resturlaub-und-uebertrag",
+   "eintritt-austritt#arbeitszeugnis"
+  ],
+  "correct": true
  },
  "a24": {
   "question": "Wie lang ist die Kündigungsfrist nach der Probezeit?",
@@ -878,7 +1768,52 @@
     "arbeitszeit#hoechstarbeitszeit-und-pausen",
     "eintritt-austritt#letzter-arbeitstag"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Nach der Probezeit beträgt die Kündigungsfrist 3 Monate zum Monatsende, sofern im Arbeitsvertrag nichts anderes vereinbart ist. [1] Die Probezeit selbst dauert 6 Monate. [2] Die Kündigung muss schriftlich mit Unterschrift erfolgen; eine E-Mail genügt nicht. [1]",
+  "cost": 0.01322,
+  "claims": [
+   {
+    "text": "Nach der Probezeit beträgt die Kündigungsfrist 3 Monate zum Monatsende, sofern im Arbeitsvertrag nichts anderes vereinbart ist.",
+    "citations": [
+     {
+      "source": "eintritt-austritt#kuendigungsfristen",
+      "quote": "Nach der Probezeit beträgt die Kündigungsfrist 3 Monate zum Monatsende, sofern im Arbeitsvertrag nichts anderes steht.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Die Probezeit selbst dauert 6 Monate.",
+    "citations": [
+     {
+      "source": "eintritt-austritt#probezeit",
+      "quote": "Die Probezeit beträgt 6 Monate.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Die Kündigung muss schriftlich mit Unterschrift erfolgen; eine E-Mail genügt nicht.",
+    "citations": [
+     {
+      "source": "eintritt-austritt#kuendigungsfristen",
+      "quote": "Eine Kündigung muss schriftlich mit Unterschrift erfolgen; eine E-Mail reicht nicht.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "eintritt-austritt#kuendigungsfristen",
+   "eintritt-austritt#probezeit",
+   "eintritt-austritt#arbeitszeugnis",
+   "arbeitszeit#hoechstarbeitszeit-und-pausen"
+  ],
+  "correct": true
  },
  "a25": {
   "question": "Wie hoch ist die Pauschale für eine Woche Rufbereitschaft?",
@@ -915,7 +1850,41 @@
     "arbeitszeit#hoechstarbeitszeit-und-pausen",
     "urlaub-abwesenheit#elternzeit"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Für eine Woche Rufbereitschaft gibt es eine Pauschale von 150 Euro. [1] Tatsächliche Einsätze während der Rufbereitschaft werden zusätzlich als Arbeitszeit erfasst und am folgenden Tag mit Freizeit ausgeglichen. [1]",
+  "cost": 0.01146,
+  "claims": [
+   {
+    "text": "Für eine Woche Rufbereitschaft gibt es eine Pauschale von 150 Euro.",
+    "citations": [
+     {
+      "source": "arbeitszeit#rufbereitschaft",
+      "quote": "Für eine Woche Rufbereitschaft gibt es eine Pauschale von 150 Euro.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Tatsächliche Einsätze während der Rufbereitschaft werden zusätzlich als Arbeitszeit erfasst und am folgenden Tag mit Freizeit ausgeglichen.",
+    "citations": [
+     {
+      "source": "arbeitszeit#rufbereitschaft",
+      "quote": "Tatsächliche Einsätze werden als Arbeitszeit erfasst und am folgenden Tag mit Freizeit ausgeglichen.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "arbeitszeit#rufbereitschaft",
+   "arbeitszeit#wochenarbeitszeit",
+   "arbeitszeit#arbeit-an-feiertagen-und-wochenenden",
+   "arbeitszeit#hoechstarbeitszeit-und-pausen"
+  ],
+  "correct": true
  },
  "a26": {
   "question": "Wie viel Geld habe ich pro Jahr für Weiterbildung?",
@@ -952,7 +1921,52 @@
     "arbeitszeit#ueberstunden",
     "benefits#dienstrad"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Du hast ein Weiterbildungsbudget von 1.000 Euro pro Jahr, dazu kommen 3 zusätzliche Tage für Konferenzen und Kurse. [1] Das Budget verfällt am Jahresende und kann nicht ins nächste Jahr übertragen werden. [1] Kosten über 1.000 Euro sind nach Absprache mit deiner Teamleitung möglich. [1]",
+  "cost": 0.01341,
+  "claims": [
+   {
+    "text": "Du hast ein Weiterbildungsbudget von 1.000 Euro pro Jahr, dazu kommen 3 zusätzliche Tage für Konferenzen und Kurse.",
+    "citations": [
+     {
+      "source": "benefits#weiterbildung",
+      "quote": "Jede Mitarbeiterin und jeder Mitarbeiter hat ein Weiterbildungsbudget von 1.000 Euro pro Jahr sowie 3 zusätzliche Tage für Konferenzen und Kurse.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Das Budget verfällt am Jahresende und kann nicht ins nächste Jahr übertragen werden.",
+    "citations": [
+     {
+      "source": "benefits#weiterbildung",
+      "quote": "Das Budget verfällt am Jahresende und kann nicht übertragen werden.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Kosten über 1.000 Euro sind nach Absprache mit deiner Teamleitung möglich.",
+    "citations": [
+     {
+      "source": "benefits#weiterbildung",
+      "quote": "Kosten über 1.000 Euro sind nach Absprache mit der Teamleitung möglich.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "benefits#weiterbildung",
+   "arbeitszeit#rufbereitschaft",
+   "benefits#essen-und-getraenke",
+   "arbeitszeit#ueberstunden"
+  ],
+  "correct": true
  },
  "a27": {
   "question": "Bis zu welchem Preis kann ich ein E-Bike leasen?",
@@ -989,7 +2003,52 @@
     "arbeitszeit#rufbereitschaft",
     "pricing-plans#team-plan"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Über das Dienstrad-Leasing kannst du ein Fahrrad oder E-Bike bis zu einem Kaufpreis von 7.000 Euro leasen. [1] Die Leasingrate zahlst du per Gehaltsumwandlung, und Talvi übernimmt die Versicherung. [1] Ein Dienstrad kannst du ab dem Ende der Probezeit bekommen. [1]",
+  "cost": 0.0125,
+  "claims": [
+   {
+    "text": "Über das Dienstrad-Leasing kannst du ein Fahrrad oder E-Bike bis zu einem Kaufpreis von 7.000 Euro leasen.",
+    "citations": [
+     {
+      "source": "benefits#dienstrad",
+      "quote": "Über Dienstrad-Leasing kannst du ein Fahrrad oder E-Bike bis 7.000 Euro Kaufpreis leasen.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Die Leasingrate zahlst du per Gehaltsumwandlung, und Talvi übernimmt die Versicherung.",
+    "citations": [
+     {
+      "source": "benefits#dienstrad",
+      "quote": "Die Leasingrate wird per Gehaltsumwandlung bezahlt, Talvi übernimmt die Versicherung.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Ein Dienstrad kannst du ab dem Ende der Probezeit bekommen.",
+    "citations": [
+     {
+      "source": "benefits#dienstrad",
+      "quote": "Ein Dienstrad ist ab dem Ende der Probezeit möglich.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "benefits#dienstrad",
+   "travel-expenses#using-your-own-car",
+   "remote-work#home-office-equipment",
+   "arbeitszeit#rufbereitschaft"
+  ],
+  "correct": true
  },
  "a28": {
   "question": "Wann ist die Kernzeit?",
@@ -1022,7 +2081,41 @@
     "benefits#firmenevents",
     "arbeitszeit#arbeit-an-feiertagen-und-wochenenden"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Die Kernzeit ist an allen Arbeitstagen von 10 bis 15 Uhr. [1] In der Kernzeit sollst du erreichbar sein, und Meetings finden bevorzugt in diesem Zeitfenster statt. [1]",
+  "cost": 0.01003,
+  "claims": [
+   {
+    "text": "Die Kernzeit ist an allen Arbeitstagen von 10 bis 15 Uhr.",
+    "citations": [
+     {
+      "source": "arbeitszeit#kernzeit",
+      "quote": "Die Kernzeit ist von 10 bis 15 Uhr an allen Arbeitstagen.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "In der Kernzeit sollst du erreichbar sein, und Meetings finden bevorzugt in diesem Zeitfenster statt.",
+    "citations": [
+     {
+      "source": "arbeitszeit#kernzeit",
+      "quote": "In dieser Zeit sollst du erreichbar sein und Meetings finden bevorzugt in diesem Zeitfenster statt.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "arbeitszeit#kernzeit",
+   "eintritt-austritt#probezeit",
+   "urlaub-abwesenheit#elternzeit",
+   "benefits#firmenevents"
+  ],
+  "correct": true
  },
  "a29": {
   "question": "Kann ich meine Boards als CSV exportieren?",
@@ -1059,7 +2152,63 @@
     "pricing-plans#enterprise-plan",
     "billing-refunds#how-to-cancel"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Ja, Sie können Ihre Boards jederzeit und in allen Plänen exportieren. [1] Unter Einstellungen > Export laden Sie alle Boards als CSV oder JSON herunter; Dateianhänge erhalten Sie als ZIP-Archiv. [1] Große Exporte werden vorbereitet und per E-Mail-Link verschickt, der 7 Tage gültig ist. [1] Auch vor dem Löschen eines Workspaces können Sie einen Datenexport als CSV oder JSON herunterladen; gelöschte Workspaces können nicht wiederhergestellt werden. [2]",
+  "cost": 0.01625,
+  "claims": [
+   {
+    "text": "Ja, Sie können Ihre Boards jederzeit und in allen Plänen exportieren.",
+    "citations": [
+     {
+      "source": "kunden-faq#kann-ich-meine-daten-exportieren",
+      "quote": "Ja, jederzeit und in allen Plänen.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Unter Einstellungen > Export laden Sie alle Boards als CSV oder JSON herunter; Dateianhänge erhalten Sie als ZIP-Archiv.",
+    "citations": [
+     {
+      "source": "kunden-faq#kann-ich-meine-daten-exportieren",
+      "quote": "Unter Einstellungen > Export laden Sie alle Boards als CSV oder JSON herunter, Dateianhänge als ZIP-Archiv.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Große Exporte werden vorbereitet und per E-Mail-Link verschickt, der 7 Tage gültig ist.",
+    "citations": [
+     {
+      "source": "kunden-faq#kann-ich-meine-daten-exportieren",
+      "quote": "Große Exporte werden vorbereitet und per E-Mail-Link verschickt, der 7 Tage gültig ist.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Auch vor dem Löschen eines Workspaces können Sie einen Datenexport als CSV oder JSON herunterladen; gelöschte Workspaces können nicht wiederhergestellt werden.",
+    "citations": [
+     {
+      "source": "security-data#data-deletion-after-cancellation",
+      "quote": "A data export (CSV or JSON) can be downloaded before deletion under Settings > Export. Deleted workspaces cannot be recovered.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "kunden-faq#kann-ich-meine-daten-exportieren",
+   "security-data#data-deletion-after-cancellation",
+   "security-data#backups",
+   "pricing-plans#enterprise-plan"
+  ],
+  "correct": true
  },
  "a30": {
   "question": "Wie viele Tage Sonderurlaub bekomme ich bei der Geburt meines Kindes?",
@@ -1096,7 +2245,30 @@
     "urlaub-abwesenheit#urlaubsanspruch",
     "urlaub-abwesenheit#krankmeldung"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Bei der Geburt des eigenen Kindes bekommst du 2 Tage bezahlten Sonderurlaub. [1]",
+  "cost": 0.01014,
+  "claims": [
+   {
+    "text": "Bei der Geburt des eigenen Kindes bekommst du 2 Tage bezahlten Sonderurlaub.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#sonderurlaub",
+      "quote": "Bezahlter Sonderurlaub wird gewährt: 1 Tag für die eigene Hochzeit, 2 Tage bei der Geburt des eigenen Kindes, 1 Tag für einen Umzug (einmal pro Jahr) und 2 Tage beim Tod eines nahen Angehörigen.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "urlaub-abwesenheit#sonderurlaub",
+   "urlaub-abwesenheit#elternzeit",
+   "urlaub-abwesenheit#urlaub-beantragen",
+   "urlaub-abwesenheit#urlaubsanspruch"
+  ],
+  "correct": true
  },
  "a31": {
   "question": "How many vacation days does a full-time employee get?",
@@ -1133,7 +2305,52 @@
     "eintritt-austritt#letzter-arbeitstag",
     "remote-work#working-from-abroad"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "A full-time employee working a 5-day week gets 30 vacation days per calendar year. [1] In the year an employee joins, vacation is calculated proportionally for each full month worked. [1] The office is closed between Christmas and New Year, and 3 vacation days are set aside for this closure. [2]",
+  "cost": 0.01356,
+  "claims": [
+   {
+    "text": "A full-time employee working a 5-day week gets 30 vacation days per calendar year.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#urlaubsanspruch",
+      "quote": "Vollzeitbeschäftigte mit einer 5-Tage-Woche haben 30 Urlaubstage pro Kalenderjahr.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "In the year an employee joins, vacation is calculated proportionally for each full month worked.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#urlaubsanspruch",
+      "quote": "Im Eintrittsjahr wird der Urlaub pro vollem Monat anteilig berechnet.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "The office is closed between Christmas and New Year, and 3 vacation days are set aside for this closure.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#urlaub-beantragen",
+      "quote": "Zwischen Weihnachten und Neujahr ist das Büro geschlossen; dafür werden 3 Urlaubstage eingeplant.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "urlaub-abwesenheit#urlaubsanspruch",
+   "urlaub-abwesenheit#urlaub-beantragen",
+   "urlaub-abwesenheit#sonderurlaub",
+   "eintritt-austritt#letzter-arbeitstag"
+  ],
+  "correct": true
  },
  "a32": {
   "question": "Is there a monthly subsidy for cycling to work?",
@@ -1170,7 +2387,52 @@
     "billing-refunds#refunds-for-monthly-plans",
     "travel-expenses#using-your-own-car"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "The sources do not mention a monthly cycling subsidy. The related benefit they describe is company bike leasing, where you can lease a bicycle or e-bike with a purchase price of up to 7,000 euros. [1] You pay the leasing rate yourself through salary conversion, and Talvi covers the insurance. [1] A company bike is available once your probation period has ended. [1]",
+  "cost": 0.01493,
+  "claims": [
+   {
+    "text": "The sources do not mention a monthly cycling subsidy. The related benefit they describe is company bike leasing, where you can lease a bicycle or e-bike with a purchase price of up to 7,000 euros.",
+    "citations": [
+     {
+      "source": "benefits#dienstrad",
+      "quote": "Über Dienstrad-Leasing kannst du ein Fahrrad oder E-Bike bis 7.000 Euro Kaufpreis leasen.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "You pay the leasing rate yourself through salary conversion, and Talvi covers the insurance.",
+    "citations": [
+     {
+      "source": "benefits#dienstrad",
+      "quote": "Die Leasingrate wird per Gehaltsumwandlung bezahlt, Talvi übernimmt die Versicherung.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "A company bike is available once your probation period has ended.",
+    "citations": [
+     {
+      "source": "benefits#dienstrad",
+      "quote": "Ein Dienstrad ist ab dem Ende der Probezeit möglich.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "support-sla#service-credits",
+   "benefits#dienstrad",
+   "travel-expenses#submitting-expenses",
+   "billing-refunds#refunds-for-monthly-plans"
+  ],
+  "correct": false
  },
  "a33": {
   "question": "What is the notice period during probation?",
@@ -1207,7 +2469,52 @@
     "billing-refunds#failed-payments",
     "security-data#reporting-a-vulnerability"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "During the probation period, either side can terminate the employment with a notice period of 2 weeks. [1] The probation period lasts 6 months. [2] A termination must be in writing with a signature; an email is not sufficient. [1]",
+  "cost": 0.01139,
+  "claims": [
+   {
+    "text": "During the probation period, either side can terminate the employment with a notice period of 2 weeks.",
+    "citations": [
+     {
+      "source": "eintritt-austritt#kuendigungsfristen",
+      "quote": "Während der Probezeit kann das Arbeitsverhältnis von beiden Seiten mit einer Frist von 2 Wochen gekündigt werden.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "The probation period lasts 6 months.",
+    "citations": [
+     {
+      "source": "eintritt-austritt#probezeit",
+      "quote": "Die Probezeit beträgt 6 Monate.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "A termination must be in writing with a signature; an email is not sufficient.",
+    "citations": [
+     {
+      "source": "eintritt-austritt#kuendigungsfristen",
+      "quote": "Eine Kündigung muss schriftlich mit Unterschrift erfolgen; eine E-Mail reicht nicht.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "eintritt-austritt#kuendigungsfristen",
+   "eintritt-austritt#probezeit",
+   "eintritt-austritt#arbeitszeugnis",
+   "billing-refunds#failed-payments"
+  ],
+  "correct": true
  },
  "a34": {
   "question": "Wie viel Kilometergeld gibt es für Fahrten mit dem eigenen Auto?",
@@ -1240,7 +2547,52 @@
     "travel-expenses#hotels",
     "arbeitszeit#rufbereitschaft"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Für Fahrten mit dem eigenen Auto werden 0,30 Euro pro gefahrenem Kilometer erstattet. [1] Die Nutzung des eigenen Autos ist die Ausnahme und muss genehmigt werden. [1] Parkgebühren werden gegen Beleg erstattet, Bußgelder dagegen nie. [1]",
+  "cost": 0.01102,
+  "claims": [
+   {
+    "text": "Für Fahrten mit dem eigenen Auto werden 0,30 Euro pro gefahrenem Kilometer erstattet.",
+    "citations": [
+     {
+      "source": "travel-expenses#using-your-own-car",
+      "quote": "We reimburse 0.30 euros per kilometre driven.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Die Nutzung des eigenen Autos ist die Ausnahme und muss genehmigt werden.",
+    "citations": [
+     {
+      "source": "travel-expenses#using-your-own-car",
+      "quote": "Using your own car is the exception and needs approval.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Parkgebühren werden gegen Beleg erstattet, Bußgelder dagegen nie.",
+    "citations": [
+     {
+      "source": "travel-expenses#using-your-own-car",
+      "quote": "Parking fees are reimbursed against a receipt; fines are never reimbursed.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "travel-expenses#using-your-own-car",
+   "travel-expenses#per-diem-and-meals",
+   "benefits#dienstrad",
+   "travel-expenses#hotels"
+  ],
+  "correct": true
  },
  "a35": {
   "question": "Wie viel kostet der Team-Plan pro Nutzer im Monat?",
@@ -1277,7 +2629,41 @@
     "benefits#weiterbildung",
     "pricing-plans#overview-of-the-plans"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Der Team-Plan kostet bei monatlicher Abrechnung 8 Euro pro Nutzer und Monat. [1] Bei jährlicher Abrechnung kostet er 80 Euro pro Nutzer und Jahr, das entspricht zwei Gratismonaten. [1]",
+  "cost": 0.01072,
+  "claims": [
+   {
+    "text": "Der Team-Plan kostet bei monatlicher Abrechnung 8 Euro pro Nutzer und Monat.",
+    "citations": [
+     {
+      "source": "pricing-plans#team-plan",
+      "quote": "The Team plan costs 8 euros per user per month with monthly billing, or 80 euros per user per year with annual billing (two months free).",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Bei jährlicher Abrechnung kostet er 80 Euro pro Nutzer und Jahr, das entspricht zwei Gratismonaten.",
+    "citations": [
+     {
+      "source": "pricing-plans#team-plan",
+      "quote": "The Team plan costs 8 euros per user per month with monthly billing, or 80 euros per user per year with annual billing (two months free).",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "pricing-plans#team-plan",
+   "pricing-plans#business-plan",
+   "arbeitszeit#rufbereitschaft",
+   "benefits#weiterbildung"
+  ],
+  "correct": true
  },
  "a36": {
   "question": "Wie hoch ist das Homeoffice-Budget?",
@@ -1312,7 +2698,52 @@
     "arbeitszeit#rufbereitschaft",
     "benefits#dienstrad"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Jede Mitarbeiterin und jeder Mitarbeiter erhält ein einmaliges Homeoffice-Budget von 500 Euro für einen Schreibtisch, einen Stuhl oder einen Monitor. [1] Zusätzlich gibt es eine monatliche Internetpauschale von 20 Euro, die mit dem Gehalt ausgezahlt wird. [1] Mit dem Budget gekaufte Ausstattung bleibt bei dir; Laptops und Telefone bleiben Eigentum des Unternehmens. [1]",
+  "cost": 0.01424,
+  "claims": [
+   {
+    "text": "Jede Mitarbeiterin und jeder Mitarbeiter erhält ein einmaliges Homeoffice-Budget von 500 Euro für einen Schreibtisch, einen Stuhl oder einen Monitor.",
+    "citations": [
+     {
+      "source": "remote-work#home-office-equipment",
+      "quote": "Every employee gets a one-time home office budget of 500 euros for a desk, a chair or a monitor, plus a monthly internet allowance of 20 euros paid with the salary.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Zusätzlich gibt es eine monatliche Internetpauschale von 20 Euro, die mit dem Gehalt ausgezahlt wird.",
+    "citations": [
+     {
+      "source": "remote-work#home-office-equipment",
+      "quote": "Every employee gets a one-time home office budget of 500 euros for a desk, a chair or a monitor, plus a monthly internet allowance of 20 euros paid with the salary.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Mit dem Budget gekaufte Ausstattung bleibt bei dir; Laptops und Telefone bleiben Eigentum des Unternehmens.",
+    "citations": [
+     {
+      "source": "remote-work#home-office-equipment",
+      "quote": "Equipment bought with the budget stays with you; laptops and phones remain company property.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "remote-work#home-office-equipment",
+   "benefits#weiterbildung",
+   "benefits#essen-und-getraenke",
+   "arbeitszeit#rufbereitschaft"
+  ],
+  "correct": true
  },
  "a37": {
   "question": "Which plans have single sign-on, and what does a Business seat cost per year?",
@@ -1350,7 +2781,52 @@
     "pricing-plans#enterprise-plan",
     "pricing-plans#adding-and-removing-seats"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "Single sign-on (SAML 2.0) is available on the Business and Enterprise plans. [1] A Business seat costs 150 euros per user per year (or 15 euros per user per month). [2] Prices are in euros and exclude VAT. [3]",
+  "cost": 0.01104,
+  "claims": [
+   {
+    "text": "Single sign-on (SAML 2.0) is available on the Business and Enterprise plans.",
+    "citations": [
+     {
+      "source": "security-data#single-sign-on-and-two-factor-authentication",
+      "quote": "Single sign-on with SAML 2.0 is available on Business and Enterprise; it works with common identity providers.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "A Business seat costs 150 euros per user per year (or 15 euros per user per month).",
+    "citations": [
+     {
+      "source": "pricing-plans#business-plan",
+      "quote": "The Business plan costs 15 euros per user per month, or 150 euros per user per year.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Prices are in euros and exclude VAT.",
+    "citations": [
+     {
+      "source": "pricing-plans#overview-of-the-plans",
+      "quote": "Prices are in euros and exclude VAT.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "pricing-plans#business-plan",
+   "security-data#single-sign-on-and-two-factor-authentication",
+   "pricing-plans#overview-of-the-plans",
+   "pricing-plans#enterprise-plan"
+  ],
+  "correct": true
  },
  "a38": {
   "question": "If we downgrade from Business to Team, what happens to SSO and how many API requests per minute do we get?",
@@ -1388,7 +2864,63 @@
     "support-sla#uptime-commitment",
     "support-sla#first-response-times"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "A downgrade from Business to Team takes effect at the end of a billing period. [1] SSO is a Business-only feature, so it is switched off when the downgrade takes effect, and SSO users have to set a password. [1] On the Team plan, the API allows 60 requests per minute per token, compared with 300 per minute on Business. [2] If you exceed the limit, the API answers with HTTP 429, and the Retry-After header tells you how many seconds to wait. [2]",
+  "cost": 0.01385,
+  "claims": [
+   {
+    "text": "A downgrade from Business to Team takes effect at the end of a billing period.",
+    "citations": [
+     {
+      "source": "billing-refunds#downgrading-a-plan",
+      "quote": "You can downgrade from Business to Team at the end of a billing period.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "SSO is a Business-only feature, so it is switched off when the downgrade takes effect, and SSO users have to set a password.",
+    "citations": [
+     {
+      "source": "billing-refunds#downgrading-a-plan",
+      "quote": "Features that only exist on Business (SSO, audit logs) are switched off at that moment, and SSO users have to set a password.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "On the Team plan, the API allows 60 requests per minute per token, compared with 300 per minute on Business.",
+    "citations": [
+     {
+      "source": "api-reference#rate-limits",
+      "quote": "The API allows 60 requests per minute per token on the Team plan and 300 requests per minute on Business.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "If you exceed the limit, the API answers with HTTP 429, and the Retry-After header tells you how many seconds to wait.",
+    "citations": [
+     {
+      "source": "api-reference#rate-limits",
+      "quote": "When the limit is exceeded the API answers with HTTP 429 and error code TB-4290; the Retry-After header says how many seconds to wait.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "api-reference#rate-limits",
+   "billing-refunds#downgrading-a-plan",
+   "api-reference#authentication",
+   "support-sla#uptime-commitment"
+  ],
+  "correct": true
  },
  "a39": {
   "question": "What is the per diem for a full day away, and by when must I submit the expense?",
@@ -1426,7 +2958,63 @@
     "billing-refunds#refunds-for-annual-plans",
     "support-sla#service-credits"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "For travel within Germany, the per diem for a full day away is 28 euros. [1] If a meal is provided, such as breakfast at the hotel, the per diem is reduced, and for trips abroad the official country rates apply instead. [1] You must submit the expense within 30 days after the trip, using form EX-2 in the finance portal and including a photo of every receipt. [2] Expenses submitted more than 3 months after the trip are not reimbursed. [2]",
+  "cost": 0.01436,
+  "claims": [
+   {
+    "text": "For travel within Germany, the per diem for a full day away is 28 euros.",
+    "citations": [
+     {
+      "source": "travel-expenses#per-diem-and-meals",
+      "quote": "For travel within Germany we pay the statutory per diem: 14 euros for days with more than 8 hours away from home and 28 euros for full days away.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "If a meal is provided, such as breakfast at the hotel, the per diem is reduced, and for trips abroad the official country rates apply instead.",
+    "citations": [
+     {
+      "source": "travel-expenses#per-diem-and-meals",
+      "quote": "If a meal is provided, for example breakfast at the hotel, the per diem is reduced as required by tax law. For trips abroad the official country rates apply.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "You must submit the expense within 30 days after the trip, using form EX-2 in the finance portal and including a photo of every receipt.",
+    "citations": [
+     {
+      "source": "travel-expenses#submitting-expenses",
+      "quote": "Submit expenses with the expense form EX-2 in the finance portal within 30 days after the trip, with a photo of every receipt.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Expenses submitted more than 3 months after the trip are not reimbursed.",
+    "citations": [
+     {
+      "source": "travel-expenses#submitting-expenses",
+      "quote": "Expenses submitted later than 3 months after the trip are not reimbursed.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "travel-expenses#per-diem-and-meals",
+   "travel-expenses#submitting-expenses",
+   "billing-refunds#refunds-for-monthly-plans",
+   "billing-refunds#refunds-for-annual-plans"
+  ],
+  "correct": true
  },
  "a40": {
   "question": "When the office is closed between Christmas and New Year, how many vacation days are planned for that, and how many do I have in total at 5 days a week?",
@@ -1464,7 +3052,52 @@
     "support-sla#first-response-times",
     "billing-refunds#refunds-for-annual-plans"
    ]
-  }
+  },
+  "status": "answered",
+  "answer": "The office is closed between Christmas and New Year, and 3 vacation days are planned for this. [1] Full-time employees with a 5-day week have 30 vacation days per calendar year in total. [2] In the year you join, your vacation is calculated pro rata for each full month. [2]",
+  "cost": 0.01329,
+  "claims": [
+   {
+    "text": "The office is closed between Christmas and New Year, and 3 vacation days are planned for this.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#urlaub-beantragen",
+      "quote": "Zwischen Weihnachten und Neujahr ist das Büro geschlossen; dafür werden 3 Urlaubstage eingeplant.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "Full-time employees with a 5-day week have 30 vacation days per calendar year in total.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#urlaubsanspruch",
+      "quote": "Vollzeitbeschäftigte mit einer 5-Tage-Woche haben 30 Urlaubstage pro Kalenderjahr.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "In the year you join, your vacation is calculated pro rata for each full month.",
+    "citations": [
+     {
+      "source": "urlaub-abwesenheit#urlaubsanspruch",
+      "quote": "Im Eintrittsjahr wird der Urlaub pro vollem Monat anteilig berechnet.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   }
+  ],
+  "sources_seen": [
+   "urlaub-abwesenheit#urlaub-beantragen",
+   "urlaub-abwesenheit#urlaubsanspruch",
+   "remote-work#working-from-abroad",
+   "support-sla#first-response-times"
+  ],
+  "correct": true
  },
  "c01": {
   "id": "c01",
@@ -1699,5 +3332,212 @@
   "same": false,
   "similarity": 0.8722,
   "hit": false
+ },
+ "u01": {
+  "question": "How much is the Christmas bonus?",
+  "status": "not found",
+  "answer": "Not in the docs.",
+  "cost": 0.00549,
+  "claims": [],
+  "sources_seen": [
+   "benefits#essen-und-getraenke",
+   "benefits#weiterbildung",
+   "travel-expenses#per-diem-and-meals",
+   "pricing-plans#team-plan"
+  ],
+  "abstained": true
+ },
+ "u02": {
+  "question": "Wie hoch ist das Weihnachtsgeld?",
+  "status": "not found",
+  "answer": "Steht nicht in den Dokumenten.",
+  "cost": 0.00543,
+  "claims": [],
+  "sources_seen": [
+   "travel-expenses#per-diem-and-meals",
+   "benefits#essen-und-getraenke",
+   "travel-expenses#hotels",
+   "benefits#weiterbildung"
+  ],
+  "abstained": true
+ },
+ "u03": {
+  "question": "Does Talvi Boards integrate with Salesforce?",
+  "status": "not found",
+  "answer": "Not in the docs.",
+  "cost": 0.00564,
+  "claims": [],
+  "sources_seen": [
+   "pricing-plans#enterprise-plan",
+   "kunden-faq#unterstuetzt-talvi-boards-die-barrierefreiheit",
+   "kunden-faq#gibt-es-talvi-boards-als-app",
+   "pricing-plans#free-plan"
+  ],
+  "abstained": true
+ },
+ "u04": {
+  "question": "What is the dress code in the office?",
+  "status": "not found",
+  "answer": "Not in the docs.",
+  "cost": 0.00497,
+  "claims": [],
+  "sources_seen": [
+   "security-data#single-sign-on-and-two-factor-authentication",
+   "security-data#encryption",
+   "it-security#passwords-and-accounts",
+   "it-security#phishing"
+  ],
+  "abstained": true
+ },
+ "u05": {
+  "question": "Can I bring my dog to the office?",
+  "status": "not found",
+  "answer": "Not in the docs.",
+  "cost": 0.0049,
+  "claims": [],
+  "sources_seen": [
+   "benefits#essen-und-getraenke",
+   "billing-refunds#failed-payments",
+   "it-security#using-ai-tools",
+   "it-security#phishing"
+  ],
+  "abstained": true
+ },
+ "u06": {
+  "question": "Who is the CEO of Talvi Software?",
+  "status": "not found",
+  "answer": "Not in the docs.",
+  "cost": 0.00521,
+  "claims": [],
+  "sources_seen": [
+   "pricing-plans#enterprise-plan",
+   "pricing-plans#overview-of-the-plans",
+   "benefits#firmenevents",
+   "it-security#phishing"
+  ],
+  "abstained": true
+ },
+ "u07": {
+  "question": "What is the maximum file size for an attachment?",
+  "status": "not found",
+  "answer": "Not in the docs.",
+  "cost": 0.00537,
+  "claims": [],
+  "sources_seen": [
+   "security-data#encryption",
+   "api-reference#webhooks",
+   "api-reference#pagination",
+   "kunden-faq#kann-ich-meine-daten-exportieren"
+  ],
+  "abstained": true
+ },
+ "u08": {
+  "question": "Welche Gehaltsbänder gibt es für Senior-Entwickler?",
+  "status": "not found",
+  "answer": "Steht nicht in den Dokumenten.",
+  "cost": 0.00604,
+  "claims": [],
+  "sources_seen": [
+   "benefits#weiterbildung",
+   "arbeitszeit#rufbereitschaft",
+   "arbeitszeit#hoechstarbeitszeit-und-pausen",
+   "eintritt-austritt#arbeitszeugnis"
+  ],
+  "abstained": true
+ },
+ "u09": {
+  "question": "How long are webhook payloads stored after delivery?",
+  "status": "not found",
+  "answer": "Not in the docs.",
+  "cost": 0.00527,
+  "claims": [],
+  "sources_seen": [
+   "api-reference#api-versioning",
+   "api-reference#authentication",
+   "api-reference#webhooks",
+   "billing-refunds#failed-payments"
+  ],
+  "abstained": true
+ },
+ "u10": {
+  "question": "Zahlt Talvi einen Zuschuss zum Elterngeld?",
+  "status": "not found",
+  "answer": "Not in the docs.",
+  "cost": 0.00528,
+  "claims": [],
+  "sources_seen": [
+   "benefits#betriebliche-altersvorsorge",
+   "pricing-plans#discounts-for-non-profits-and-education",
+   "benefits#deutschlandticket",
+   "it-security#phishing"
+  ],
+  "abstained": true
+ },
+ "u11": {
+  "question": "What is the API rate limit for the GraphQL endpoint?",
+  "status": "answered",
+  "answer": "The sources give only general API rate limits per token, which depend on the plan: 60 requests per minute on Team and 300 on Business. [1] For Enterprise, limits are agreed in the contract, with a default of 1,000 requests per minute. [1] If the limit is exceeded, the API returns HTTP 429 with error code TB-4290. The Retry-After header gives the number of seconds to wait. [1]",
+  "cost": 0.01658,
+  "claims": [
+   {
+    "text": "The sources give only general API rate limits per token, which depend on the plan: 60 requests per minute on Team and 300 on Business.",
+    "citations": [
+     {
+      "source": "api-reference#rate-limits",
+      "quote": "The API allows 60 requests per minute per token on the Team plan and 300 requests per minute on Business.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "For Enterprise, limits are agreed in the contract, with a default of 1,000 requests per minute.",
+    "citations": [
+     {
+      "source": "api-reference#rate-limits",
+      "quote": "Enterprise limits are agreed in the contract, by default 1,000 requests per minute.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "If the limit is exceeded, the API returns HTTP 429 with error code TB-4290. The Retry-After header gives the number of seconds to wait.",
+    "citations": [
+     {
+      "source": "api-reference#rate-limits",
+      "quote": "When the limit is exceeded the API answers with HTTP 429 and error code TB-4290; the Retry-After header says how many seconds to wait.",
+      "found": true
+     }
+    ],
+    "status": "supported"
+   },
+   {
+    "text": "The sources do not mention a GraphQL endpoint. They do not say whether it has its own rate limit or whether these general limits apply to it.",
+    "citations": [],
+    "status": "dropped"
+   }
+  ],
+  "sources_seen": [
+   "api-reference#rate-limits",
+   "api-reference#pagination",
+   "api-reference#webhooks",
+   "support-sla#service-credits"
+  ],
+  "abstained": false
+ },
+ "u12": {
+  "question": "Wie viele Tage Homeoffice pro Woche sind für Werkstudenten erlaubt?",
+  "status": "not found",
+  "answer": "Steht nicht in den Dokumenten.",
+  "cost": 0.00647,
+  "claims": [],
+  "sources_seen": [
+   "urlaub-abwesenheit#urlaub-beantragen",
+   "urlaub-abwesenheit#urlaubsanspruch",
+   "arbeitszeit#wochenarbeitszeit",
+   "eintritt-austritt#erster-arbeitstag"
+  ],
+  "abstained": true
  }
 }

@@ -143,9 +143,9 @@ def main():
               f"{pct(sum(e['abstained'] for e in una), len(una))} |")
         print(f"| citation precision (verified citations pointing to a labeled source) | {pct(on_label, len(cits))} |")
         print(f"| quotes not found in the cited source | {pct(sum(not x['found'] for x in all_cits), len(all_cits))} |")
-        print(f"| claims dropped (no verified quote) / flagged (number not in quote) | "
+        print(f"| claims dropped (no verified quote) / flagged (number not in quote or question) / gaps | "
               f"{sum(c['status'] == 'dropped' for c in claims)} / {sum(c['status'] == 'flagged' for c in claims)}"
-              f" of {len(claims)} |")
+              f" / {sum(c['status'] == 'gap' for c in claims)} of {len(claims)} |")
         print(f"| cost | {len(got)} calls, {sum(a.tokens_in for a in got):,} in / "
               f"{sum(a.tokens_out for a in got):,} out tokens, ${cost:.2f} (${per:.4f} per question) |")
         print(f"| cache: hits on the {nh} paraphrases, $ saved | {h} hits, ${h * per:.3f} saved, "
