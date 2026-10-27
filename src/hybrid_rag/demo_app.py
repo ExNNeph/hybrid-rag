@@ -68,8 +68,15 @@ def cache_line(a: Answer) -> None:
 def show_answer(a: Answer) -> None:
     st.markdown(f"**{BADGE[a.status]}**" + (f" · ${a.cost:.4f}" if a.cost else ""))
     cache_line(a)
-    if a.status in ("answered", "not found", "unsupported"):
-        st.markdown(f"### {a.text}")
+    if a.status == "answered":
+        refs = a.cited
+        with st.container(border=True):
+            st.markdown(" ".join(
+                f"*Not covered by the docs: {c.text}*" if c.status == "gap" else
+                c.text + "".join(f" **[{refs.index(x.source) + 1}]**" for x in c.citations if x.found)
+                + (" ⚠️" if c.status == "flagged" else "") for c in a.kept))
+    elif a.status in ("not found", "unsupported"):
+        st.markdown(f"#### {a.text}")
     elif a.error:
         st.warning(a.error)
     for n, sid in enumerate(a.cited, 1):
@@ -78,8 +85,6 @@ def show_answer(a: Answer) -> None:
     for c in a.claims:
         if c.status == "dropped":
             st.error(f"Dropped, its quote is not in the cited source: {c.text}")
-        elif c.status == "gap":
-            st.info(f"Not covered by the docs: {c.text}")
         elif c.status == "flagged":
             st.warning(f"Flagged, a number in it is not in its quotes: {c.text}")
 
