@@ -1,0 +1,1703 @@
+{
+ "a01": {
+  "question": "What does API error TB-4031 mean?",
+  "kind": "keyword",
+  "expected": [
+   "api-reference#error-codes"
+  ],
+  "retrieved": {
+   "bm25": [
+    "api-reference#error-codes",
+    "api-reference#rate-limits",
+    "api-reference#pagination",
+    "api-reference#api-versioning",
+    "api-reference#authentication"
+   ],
+   "dense": [
+    "api-reference#error-codes",
+    "api-reference#rate-limits",
+    "api-reference#api-versioning",
+    "api-reference#pagination",
+    "api-reference#webhooks"
+   ],
+   "hybrid": [
+    "api-reference#error-codes",
+    "api-reference#rate-limits",
+    "api-reference#pagination",
+    "api-reference#api-versioning",
+    "api-reference#authentication"
+   ],
+   "reranked": [
+    "api-reference#error-codes",
+    "api-reference#rate-limits",
+    "api-reference#pagination",
+    "api-reference#authentication",
+    "api-reference#api-versioning"
+   ]
+  }
+ },
+ "a02": {
+  "question": "Which form do I use to submit travel expenses?",
+  "kind": "keyword",
+  "expected": [
+   "travel-expenses#submitting-expenses"
+  ],
+  "retrieved": {
+   "bm25": [
+    "travel-expenses#submitting-expenses",
+    "travel-expenses#booking-business-travel",
+    "travel-expenses#company-credit-cards",
+    "travel-expenses#using-your-own-car",
+    "travel-expenses#trains-and-flights"
+   ],
+   "dense": [
+    "travel-expenses#submitting-expenses",
+    "travel-expenses#booking-business-travel",
+    "travel-expenses#using-your-own-car",
+    "travel-expenses#company-credit-cards",
+    "travel-expenses#per-diem-and-meals"
+   ],
+   "hybrid": [
+    "travel-expenses#submitting-expenses",
+    "travel-expenses#booking-business-travel",
+    "travel-expenses#company-credit-cards",
+    "travel-expenses#using-your-own-car",
+    "travel-expenses#per-diem-and-meals"
+   ],
+   "reranked": [
+    "travel-expenses#submitting-expenses",
+    "travel-expenses#booking-business-travel",
+    "travel-expenses#company-credit-cards",
+    "travel-expenses#using-your-own-car",
+    "travel-expenses#hotels"
+   ]
+  }
+ },
+ "a03": {
+  "question": "How do I request software that is not in the self-service catalogue?",
+  "kind": "keyword",
+  "expected": [
+   "it-security#installing-software"
+  ],
+  "retrieved": {
+   "bm25": [
+    "it-security#installing-software",
+    "support-sla#priority-levels",
+    "support-sla#service-credits",
+    "api-reference#webhooks",
+    "support-sla#escalation"
+   ],
+   "dense": [
+    "it-security#installing-software",
+    "it-security#using-ai-tools",
+    "it-security#phishing",
+    "api-reference#error-codes",
+    "remote-work#working-from-cafes-and-public-places"
+   ],
+   "hybrid": [
+    "it-security#installing-software",
+    "api-reference#webhooks",
+    "api-reference#error-codes",
+    "support-sla#priority-levels",
+    "it-security#using-ai-tools"
+   ],
+   "reranked": [
+    "it-security#installing-software",
+    "api-reference#authentication",
+    "api-reference#pagination",
+    "it-security#using-ai-tools",
+    "api-reference#webhooks"
+   ]
+  }
+ },
+ "a04": {
+  "question": "In which cloud region is customer data hosted?",
+  "kind": "keyword",
+  "expected": [
+   "security-data#where-the-data-is-stored"
+  ],
+  "retrieved": {
+   "bm25": [
+    "security-data#where-the-data-is-stored",
+    "security-data#data-processing-agreement",
+    "remote-work#working-from-cafes-and-public-places",
+    "security-data#backups",
+    "pricing-plans#enterprise-plan"
+   ],
+   "dense": [
+    "security-data#where-the-data-is-stored",
+    "remote-work#working-from-cafes-and-public-places",
+    "support-sla#escalation",
+    "support-sla#priority-levels",
+    "api-reference#error-codes"
+   ],
+   "hybrid": [
+    "security-data#where-the-data-is-stored",
+    "remote-work#working-from-cafes-and-public-places",
+    "support-sla#escalation",
+    "support-sla#priority-levels",
+    "security-data#encryption"
+   ],
+   "reranked": [
+    "security-data#where-the-data-is-stored",
+    "remote-work#working-from-cafes-and-public-places",
+    "api-reference#authentication",
+    "support-sla#support-channels-and-hours",
+    "support-sla#first-response-times"
+   ]
+  }
+ },
+ "a05": {
+  "question": "Which plan includes SCIM user provisioning?",
+  "kind": "keyword",
+  "expected": [
+   "security-data#single-sign-on-and-two-factor-authentication",
+   "pricing-plans#enterprise-plan"
+  ],
+  "retrieved": {
+   "bm25": [
+    "pricing-plans#enterprise-plan",
+    "security-data#single-sign-on-and-two-factor-authentication",
+    "pricing-plans#team-plan",
+    "pricing-plans#business-plan",
+    "pricing-plans#overview-of-the-plans"
+   ],
+   "dense": [
+    "security-data#single-sign-on-and-two-factor-authentication",
+    "pricing-plans#enterprise-plan",
+    "support-sla#uptime-commitment",
+    "pricing-plans#business-plan",
+    "pricing-plans#free-plan"
+   ],
+   "hybrid": [
+    "pricing-plans#enterprise-plan",
+    "security-data#single-sign-on-and-two-factor-authentication",
+    "pricing-plans#business-plan",
+    "pricing-plans#team-plan",
+    "pricing-plans#free-plan"
+   ],
+   "reranked": [
+    "pricing-plans#enterprise-plan",
+    "security-data#single-sign-on-and-two-factor-authentication",
+    "billing-refunds#downgrading-a-plan",
+    "pricing-plans#free-plan",
+    "support-sla#uptime-commitment"
+   ]
+  }
+ },
+ "a06": {
+  "question": "How are webhook requests signed?",
+  "kind": "keyword",
+  "expected": [
+   "api-reference#webhooks"
+  ],
+  "retrieved": {
+   "bm25": [
+    "api-reference#webhooks",
+    "api-reference#rate-limits",
+    "api-reference#error-codes",
+    "api-reference#authentication",
+    "security-data#single-sign-on-and-two-factor-authentication"
+   ],
+   "dense": [
+    "api-reference#webhooks",
+    "api-reference#rate-limits",
+    "api-reference#error-codes",
+    "api-reference#authentication",
+    "api-reference#pagination"
+   ],
+   "hybrid": [
+    "api-reference#webhooks",
+    "api-reference#rate-limits",
+    "api-reference#error-codes",
+    "api-reference#authentication",
+    "api-reference#pagination"
+   ],
+   "reranked": [
+    "api-reference#webhooks",
+    "api-reference#authentication",
+    "api-reference#rate-limits",
+    "api-reference#error-codes",
+    "api-reference#pagination"
+   ]
+  }
+ },
+ "a07": {
+  "question": "What is the API rate limit on the Business plan?",
+  "kind": "keyword",
+  "expected": [
+   "api-reference#rate-limits"
+  ],
+  "retrieved": {
+   "bm25": [
+    "api-reference#rate-limits",
+    "api-reference#authentication",
+    "api-reference#api-versioning",
+    "pricing-plans#free-trial",
+    "support-sla#uptime-commitment"
+   ],
+   "dense": [
+    "api-reference#rate-limits",
+    "support-sla#uptime-commitment",
+    "pricing-plans#business-plan",
+    "api-reference#authentication",
+    "api-reference#api-versioning"
+   ],
+   "hybrid": [
+    "api-reference#rate-limits",
+    "api-reference#authentication",
+    "support-sla#uptime-commitment",
+    "api-reference#api-versioning",
+    "pricing-plans#free-trial"
+   ],
+   "reranked": [
+    "api-reference#rate-limits",
+    "support-sla#uptime-commitment",
+    "api-reference#authentication",
+    "support-sla#service-credits",
+    "api-reference#api-versioning"
+   ]
+  }
+ },
+ "a08": {
+  "question": "When will API v1 be switched off?",
+  "kind": "keyword",
+  "expected": [
+   "api-reference#api-versioning"
+  ],
+  "retrieved": {
+   "bm25": [
+    "api-reference#api-versioning",
+    "billing-refunds#downgrading-a-plan",
+    "it-security#phishing",
+    "api-reference#authentication",
+    "it-security#lost-or-stolen-devices"
+   ],
+   "dense": [
+    "api-reference#api-versioning",
+    "api-reference#authentication",
+    "support-sla#uptime-commitment",
+    "api-reference#error-codes",
+    "api-reference#rate-limits"
+   ],
+   "hybrid": [
+    "api-reference#api-versioning",
+    "api-reference#authentication",
+    "api-reference#rate-limits",
+    "billing-refunds#downgrading-a-plan",
+    "support-sla#uptime-commitment"
+   ],
+   "reranked": [
+    "api-reference#api-versioning",
+    "api-reference#authentication",
+    "support-sla#uptime-commitment",
+    "api-reference#webhooks",
+    "billing-refunds#refunds-for-monthly-plans"
+   ]
+  }
+ },
+ "a09": {
+  "question": "Can I get my money back on a yearly subscription?",
+  "kind": "paraphrase",
+  "expected": [
+   "billing-refunds#refunds-for-annual-plans"
+  ],
+  "retrieved": {
+   "bm25": [
+    "security-data#backups",
+    "pricing-plans#free-trial"
+   ],
+   "dense": [
+    "billing-refunds#refunds-for-annual-plans",
+    "billing-refunds#refunds-for-monthly-plans",
+    "billing-refunds#payment-methods",
+    "travel-expenses#submitting-expenses",
+    "billing-refunds#downgrading-a-plan"
+   ],
+   "hybrid": [
+    "pricing-plans#free-trial",
+    "security-data#backups",
+    "billing-refunds#refunds-for-annual-plans",
+    "billing-refunds#refunds-for-monthly-plans",
+    "billing-refunds#payment-methods"
+   ],
+   "reranked": [
+    "billing-refunds#refunds-for-annual-plans",
+    "billing-refunds#payment-methods",
+    "travel-expenses#submitting-expenses",
+    "billing-refunds#invoices-and-vat",
+    "support-sla#service-credits"
+   ]
+  }
+ },
+ "a10": {
+  "question": "Is a refund possible for a monthly plan?",
+  "kind": "paraphrase",
+  "expected": [
+   "billing-refunds#refunds-for-monthly-plans"
+  ],
+  "retrieved": {
+   "bm25": [
+    "billing-refunds#refunds-for-monthly-plans",
+    "billing-refunds#refunds-for-annual-plans",
+    "billing-refunds#payment-methods",
+    "billing-refunds#how-to-cancel",
+    "pricing-plans#team-plan"
+   ],
+   "dense": [
+    "billing-refunds#refunds-for-monthly-plans",
+    "billing-refunds#refunds-for-annual-plans",
+    "billing-refunds#payment-methods",
+    "pricing-plans#free-trial",
+    "pricing-plans#team-plan"
+   ],
+   "hybrid": [
+    "billing-refunds#refunds-for-monthly-plans",
+    "billing-refunds#refunds-for-annual-plans",
+    "billing-refunds#payment-methods",
+    "pricing-plans#team-plan",
+    "billing-refunds#how-to-cancel"
+   ],
+   "reranked": [
+    "billing-refunds#refunds-for-monthly-plans",
+    "billing-refunds#refunds-for-annual-plans",
+    "billing-refunds#payment-methods",
+    "billing-refunds#downgrading-a-plan",
+    "travel-expenses#submitting-expenses"
+   ]
+  }
+ },
+ "a11": {
+  "question": "My work laptop was stolen on Saturday. What do I have to do?",
+  "kind": "paraphrase",
+  "expected": [
+   "it-security#lost-or-stolen-devices"
+  ],
+  "retrieved": {
+   "bm25": [
+    "it-security#lost-or-stolen-devices",
+    "remote-work#working-from-cafes-and-public-places",
+    "remote-work#home-office-equipment",
+    "remote-work#working-from-abroad",
+    "remote-work#office-days"
+   ],
+   "dense": [
+    "it-security#lost-or-stolen-devices",
+    "it-security#your-laptop",
+    "security-data#data-deletion-after-cancellation",
+    "it-security#using-ai-tools",
+    "it-security#installing-software"
+   ],
+   "hybrid": [
+    "it-security#lost-or-stolen-devices",
+    "remote-work#working-from-cafes-and-public-places",
+    "it-security#your-laptop",
+    "it-security#using-ai-tools",
+    "remote-work#working-from-abroad"
+   ],
+   "reranked": [
+    "it-security#lost-or-stolen-devices",
+    "eintritt-austritt#letzter-arbeitstag",
+    "remote-work#working-from-cafes-and-public-places",
+    "security-data#data-deletion-after-cancellation",
+    "eintritt-austritt#erster-arbeitstag"
+   ]
+  }
+ },
+ "a12": {
+  "question": "Can I work from my flat in Spain for a few weeks?",
+  "kind": "paraphrase",
+  "expected": [
+   "remote-work#working-from-abroad"
+  ],
+  "retrieved": {
+   "bm25": [
+    "remote-work#working-from-abroad",
+    "remote-work#office-days",
+    "it-security#passwords-and-accounts",
+    "remote-work#working-from-cafes-and-public-places",
+    "it-security#using-ai-tools"
+   ],
+   "dense": [
+    "remote-work#working-from-abroad",
+    "billing-refunds#refunds-for-monthly-plans",
+    "remote-work#office-days",
+    "travel-expenses#trains-and-flights",
+    "billing-refunds#how-to-cancel"
+   ],
+   "hybrid": [
+    "remote-work#working-from-abroad",
+    "remote-work#office-days",
+    "remote-work#working-from-cafes-and-public-places",
+    "remote-work#home-office-equipment",
+    "it-security#lost-or-stolen-devices"
+   ],
+   "reranked": [
+    "billing-refunds#failed-payments",
+    "remote-work#working-from-abroad",
+    "it-security#lost-or-stolen-devices",
+    "security-data#data-deletion-after-cancellation",
+    "kunden-faq#gibt-es-eine-testphase"
+   ]
+  }
+ },
+ "a13": {
+  "question": "How much can I spend on a hotel night for a business trip to Hamburg?",
+  "kind": "paraphrase",
+  "expected": [
+   "travel-expenses#hotels"
+  ],
+  "retrieved": {
+   "bm25": [
+    "travel-expenses#hotels",
+    "travel-expenses#booking-business-travel",
+    "travel-expenses#per-diem-and-meals",
+    "travel-expenses#company-credit-cards",
+    "travel-expenses#submitting-expenses"
+   ],
+   "dense": [
+    "travel-expenses#hotels",
+    "travel-expenses#per-diem-and-meals",
+    "travel-expenses#trains-and-flights",
+    "remote-work#home-office-equipment",
+    "pricing-plans#free-trial"
+   ],
+   "hybrid": [
+    "travel-expenses#hotels",
+    "travel-expenses#per-diem-and-meals",
+    "travel-expenses#booking-business-travel",
+    "travel-expenses#trains-and-flights",
+    "support-sla#first-response-times"
+   ],
+   "reranked": [
+    "benefits#essen-und-getraenke",
+    "travel-expenses#hotels",
+    "travel-expenses#using-your-own-car",
+    "travel-expenses#per-diem-and-meals",
+    "pricing-plans#team-plan"
+   ]
+  }
+ },
+ "a14": {
+  "question": "What happens when our card payment does not go through?",
+  "kind": "paraphrase",
+  "expected": [
+   "billing-refunds#failed-payments"
+  ],
+  "retrieved": {
+   "bm25": [
+    "billing-refunds#payment-methods",
+    "it-security#phishing",
+    "travel-expenses#booking-business-travel",
+    "travel-expenses#company-credit-cards",
+    "billing-refunds#failed-payments"
+   ],
+   "dense": [
+    "billing-refunds#payment-methods",
+    "billing-refunds#failed-payments",
+    "api-reference#webhooks",
+    "support-sla#service-credits",
+    "api-reference#error-codes"
+   ],
+   "hybrid": [
+    "billing-refunds#payment-methods",
+    "billing-refunds#failed-payments",
+    "it-security#phishing",
+    "travel-expenses#company-credit-cards",
+    "api-reference#webhooks"
+   ],
+   "reranked": [
+    "billing-refunds#failed-payments",
+    "support-sla#escalation",
+    "billing-refunds#payment-methods",
+    "support-sla#service-credits",
+    "api-reference#webhooks"
+   ]
+  }
+ },
+ "a15": {
+  "question": "How quickly does support answer when the whole app is down and we are on Business?",
+  "kind": "paraphrase",
+  "expected": [
+   "support-sla#first-response-times"
+  ],
+  "retrieved": {
+   "bm25": [
+    "support-sla#priority-levels",
+    "support-sla#support-channels-and-hours",
+    "support-sla#uptime-commitment",
+    "kunden-faq#unterstuetzt-talvi-boards-die-barrierefreiheit",
+    "support-sla#escalation"
+   ],
+   "dense": [
+    "support-sla#first-response-times",
+    "support-sla#uptime-commitment",
+    "billing-refunds#downgrading-a-plan",
+    "support-sla#support-channels-and-hours",
+    "support-sla#escalation"
+   ],
+   "hybrid": [
+    "support-sla#uptime-commitment",
+    "support-sla#support-channels-and-hours",
+    "support-sla#first-response-times",
+    "support-sla#escalation",
+    "support-sla#service-credits"
+   ],
+   "reranked": [
+    "support-sla#uptime-commitment",
+    "support-sla#first-response-times",
+    "support-sla#service-credits",
+    "api-reference#rate-limits",
+    "api-reference#webhooks"
+   ]
+  }
+ },
+ "a16": {
+  "question": "What do we get back if Talvi Boards was down a lot last month?",
+  "kind": "paraphrase",
+  "expected": [
+   "support-sla#service-credits"
+  ],
+  "retrieved": {
+   "bm25": [
+    "pricing-plans#team-plan",
+    "pricing-plans#free-trial",
+    "support-sla#priority-levels",
+    "pricing-plans#business-plan",
+    "pricing-plans#adding-and-removing-seats"
+   ],
+   "dense": [
+    "pricing-plans#discounts-for-non-profits-and-education",
+    "pricing-plans#free-plan",
+    "pricing-plans#team-plan",
+    "support-sla#priority-levels",
+    "pricing-plans#business-plan"
+   ],
+   "hybrid": [
+    "pricing-plans#team-plan",
+    "support-sla#priority-levels",
+    "pricing-plans#free-trial",
+    "pricing-plans#free-plan",
+    "pricing-plans#business-plan"
+   ],
+   "reranked": [
+    "pricing-plans#adding-and-removing-seats",
+    "support-sla#priority-levels",
+    "pricing-plans#free-trial",
+    "pricing-plans#team-plan",
+    "pricing-plans#discounts-for-non-profits-and-education"
+   ]
+  }
+ },
+ "a17": {
+  "question": "Do schools pay less?",
+  "kind": "paraphrase",
+  "expected": [
+   "pricing-plans#discounts-for-non-profits-and-education"
+  ],
+  "retrieved": {
+   "bm25": [
+    "pricing-plans#discounts-for-non-profits-and-education",
+    "travel-expenses#per-diem-and-meals"
+   ],
+   "dense": [
+    "pricing-plans#discounts-for-non-profits-and-education",
+    "remote-work#home-office-equipment",
+    "billing-refunds#payment-methods",
+    "pricing-plans#adding-and-removing-seats",
+    "travel-expenses#trains-and-flights"
+   ],
+   "hybrid": [
+    "pricing-plans#discounts-for-non-profits-and-education",
+    "travel-expenses#per-diem-and-meals",
+    "remote-work#home-office-equipment",
+    "billing-refunds#payment-methods",
+    "pricing-plans#adding-and-removing-seats"
+   ],
+   "reranked": [
+    "pricing-plans#discounts-for-non-profits-and-education",
+    "billing-refunds#refunds-for-annual-plans",
+    "benefits#essen-und-getraenke",
+    "pricing-plans#adding-and-removing-seats",
+    "pricing-plans#team-plan"
+   ]
+  }
+ },
+ "a18": {
+  "question": "How long can we try the product before paying?",
+  "kind": "paraphrase",
+  "expected": [
+   "pricing-plans#free-trial",
+   "kunden-faq#gibt-es-eine-testphase"
+  ],
+  "retrieved": {
+   "bm25": [
+    "pricing-plans#free-trial",
+    "travel-expenses#booking-business-travel",
+    "security-data#data-deletion-after-cancellation",
+    "api-reference#error-codes"
+   ],
+   "dense": [
+    "support-sla#first-response-times",
+    "pricing-plans#free-trial",
+    "billing-refunds#payment-methods",
+    "billing-refunds#failed-payments",
+    "billing-refunds#refunds-for-monthly-plans"
+   ],
+   "hybrid": [
+    "pricing-plans#free-trial",
+    "support-sla#first-response-times",
+    "travel-expenses#booking-business-travel",
+    "security-data#data-deletion-after-cancellation",
+    "billing-refunds#payment-methods"
+   ],
+   "reranked": [
+    "billing-refunds#refunds-for-annual-plans",
+    "kunden-faq#gibt-es-eine-testphase",
+    "billing-refunds#refunds-for-monthly-plans",
+    "billing-refunds#failed-payments",
+    "pricing-plans#free-trial"
+   ]
+  }
+ },
+ "a19": {
+  "question": "How often are backups made and how long are they kept?",
+  "kind": "paraphrase",
+  "expected": [
+   "security-data#backups"
+  ],
+  "retrieved": {
+   "bm25": [
+    "security-data#where-the-data-is-stored",
+    "security-data#backups",
+    "it-security#your-laptop",
+    "api-reference#authentication",
+    "billing-refunds#invoices-and-vat"
+   ],
+   "dense": [
+    "security-data#backups",
+    "security-data#data-deletion-after-cancellation",
+    "security-data#encryption",
+    "billing-refunds#refunds-for-monthly-plans",
+    "billing-refunds#refunds-for-annual-plans"
+   ],
+   "hybrid": [
+    "security-data#backups",
+    "security-data#where-the-data-is-stored",
+    "security-data#data-deletion-after-cancellation",
+    "pricing-plans#free-plan",
+    "it-security#your-laptop"
+   ],
+   "reranked": [
+    "security-data#backups",
+    "security-data#data-deletion-after-cancellation",
+    "billing-refunds#refunds-for-annual-plans",
+    "api-reference#webhooks",
+    "billing-refunds#failed-payments"
+   ]
+  }
+ },
+ "a20": {
+  "question": "Can I take a first-class train from Frankfurt to Berlin, a 4.5 hour journey?",
+  "kind": "paraphrase",
+  "expected": [
+   "travel-expenses#trains-and-flights"
+  ],
+  "retrieved": {
+   "bm25": [
+    "travel-expenses#trains-and-flights",
+    "support-sla#first-response-times",
+    "remote-work#availability",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "security-data#backups"
+   ],
+   "dense": [
+    "travel-expenses#trains-and-flights",
+    "travel-expenses#per-diem-and-meals",
+    "support-sla#first-response-times",
+    "travel-expenses#using-your-own-car",
+    "travel-expenses#hotels"
+   ],
+   "hybrid": [
+    "travel-expenses#trains-and-flights",
+    "support-sla#first-response-times",
+    "remote-work#availability",
+    "travel-expenses#per-diem-and-meals",
+    "remote-work#office-days"
+   ],
+   "reranked": [
+    "travel-expenses#trains-and-flights",
+    "travel-expenses#using-your-own-car",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "travel-expenses#booking-business-travel",
+    "urlaub-abwesenheit#urlaub-beantragen"
+   ]
+  }
+ },
+ "a21": {
+  "question": "Wie viele Urlaubstage habe ich bei einer 4-Tage-Woche?",
+  "kind": "german",
+  "expected": [
+   "urlaub-abwesenheit#urlaubsanspruch"
+  ],
+  "retrieved": {
+   "bm25": [
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#urlaub-beantragen",
+    "arbeitszeit#rufbereitschaft",
+    "eintritt-austritt#erster-arbeitstag",
+    "urlaub-abwesenheit#elternzeit"
+   ],
+   "dense": [
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#urlaub-beantragen",
+    "urlaub-abwesenheit#sonderurlaub",
+    "eintritt-austritt#letzter-arbeitstag",
+    "urlaub-abwesenheit#elternzeit"
+   ],
+   "hybrid": [
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#urlaub-beantragen",
+    "urlaub-abwesenheit#sonderurlaub",
+    "urlaub-abwesenheit#elternzeit",
+    "eintritt-austritt#erster-arbeitstag"
+   ],
+   "reranked": [
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#urlaub-beantragen",
+    "support-sla#first-response-times",
+    "urlaub-abwesenheit#sonderurlaub",
+    "urlaub-abwesenheit#elternzeit"
+   ]
+  }
+ },
+ "a22": {
+  "question": "Bis wann muss ich Resturlaub aus dem Vorjahr nehmen?",
+  "kind": "german",
+  "expected": [
+   "urlaub-abwesenheit#resturlaub-und-uebertrag"
+  ],
+  "retrieved": {
+   "bm25": [
+    "urlaub-abwesenheit#resturlaub-und-uebertrag",
+    "kunden-faq#bekomme-ich-eine-rechnung-mit-umsatzsteuer",
+    "kunden-faq#unterstuetzt-talvi-boards-die-barrierefreiheit",
+    "eintritt-austritt#letzter-arbeitstag",
+    "eintritt-austritt#erster-arbeitstag"
+   ],
+   "dense": [
+    "urlaub-abwesenheit#resturlaub-und-uebertrag",
+    "urlaub-abwesenheit#urlaub-beantragen",
+    "urlaub-abwesenheit#sonderurlaub",
+    "eintritt-austritt#letzter-arbeitstag",
+    "urlaub-abwesenheit#elternzeit"
+   ],
+   "hybrid": [
+    "urlaub-abwesenheit#resturlaub-und-uebertrag",
+    "eintritt-austritt#letzter-arbeitstag",
+    "urlaub-abwesenheit#krankmeldung",
+    "eintritt-austritt#erster-arbeitstag",
+    "arbeitszeit#kernzeit"
+   ],
+   "reranked": [
+    "urlaub-abwesenheit#resturlaub-und-uebertrag",
+    "urlaub-abwesenheit#sonderurlaub",
+    "urlaub-abwesenheit#urlaub-beantragen",
+    "eintritt-austritt#probezeit",
+    "urlaub-abwesenheit#elternzeit"
+   ]
+  }
+ },
+ "a23": {
+  "question": "Ab welchem Krankheitstag brauche ich eine AU?",
+  "kind": "german",
+  "expected": [
+   "urlaub-abwesenheit#krankmeldung"
+  ],
+  "retrieved": {
+   "bm25": [
+    "urlaub-abwesenheit#krankmeldung",
+    "benefits#dienstrad",
+    "eintritt-austritt#letzter-arbeitstag"
+   ],
+   "dense": [
+    "urlaub-abwesenheit#krankmeldung",
+    "arbeitszeit#kernzeit",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#resturlaub-und-uebertrag",
+    "urlaub-abwesenheit#urlaub-beantragen"
+   ],
+   "hybrid": [
+    "urlaub-abwesenheit#krankmeldung",
+    "eintritt-austritt#letzter-arbeitstag",
+    "benefits#dienstrad",
+    "arbeitszeit#kernzeit",
+    "urlaub-abwesenheit#urlaubsanspruch"
+   ],
+   "reranked": [
+    "urlaub-abwesenheit#krankmeldung",
+    "urlaub-abwesenheit#sonderurlaub",
+    "urlaub-abwesenheit#resturlaub-und-uebertrag",
+    "eintritt-austritt#arbeitszeugnis",
+    "arbeitszeit#kernzeit"
+   ]
+  }
+ },
+ "a24": {
+  "question": "Wie lang ist die Kündigungsfrist nach der Probezeit?",
+  "kind": "german",
+  "expected": [
+   "eintritt-austritt#kuendigungsfristen"
+  ],
+  "retrieved": {
+   "bm25": [
+    "eintritt-austritt#kuendigungsfristen",
+    "eintritt-austritt#probezeit",
+    "benefits#dienstrad",
+    "arbeitszeit#arbeit-an-feiertagen-und-wochenenden",
+    "eintritt-austritt#arbeitszeugnis"
+   ],
+   "dense": [
+    "eintritt-austritt#kuendigungsfristen",
+    "eintritt-austritt#probezeit",
+    "urlaub-abwesenheit#elternzeit",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#urlaub-beantragen"
+   ],
+   "hybrid": [
+    "eintritt-austritt#kuendigungsfristen",
+    "eintritt-austritt#probezeit",
+    "urlaub-abwesenheit#elternzeit",
+    "eintritt-austritt#arbeitszeugnis",
+    "urlaub-abwesenheit#urlaubsanspruch"
+   ],
+   "reranked": [
+    "eintritt-austritt#kuendigungsfristen",
+    "eintritt-austritt#probezeit",
+    "eintritt-austritt#arbeitszeugnis",
+    "arbeitszeit#hoechstarbeitszeit-und-pausen",
+    "eintritt-austritt#letzter-arbeitstag"
+   ]
+  }
+ },
+ "a25": {
+  "question": "Wie hoch ist die Pauschale für eine Woche Rufbereitschaft?",
+  "kind": "german",
+  "expected": [
+   "arbeitszeit#rufbereitschaft"
+  ],
+  "retrieved": {
+   "bm25": [
+    "arbeitszeit#rufbereitschaft",
+    "arbeitszeit#arbeit-an-feiertagen-und-wochenenden",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#elternzeit",
+    "urlaub-abwesenheit#urlaub-beantragen"
+   ],
+   "dense": [
+    "arbeitszeit#rufbereitschaft",
+    "arbeitszeit#arbeit-an-feiertagen-und-wochenenden",
+    "urlaub-abwesenheit#sonderurlaub",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "kunden-faq#gibt-es-eine-testphase"
+   ],
+   "hybrid": [
+    "arbeitszeit#rufbereitschaft",
+    "arbeitszeit#arbeit-an-feiertagen-und-wochenenden",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#elternzeit",
+    "urlaub-abwesenheit#urlaub-beantragen"
+   ],
+   "reranked": [
+    "arbeitszeit#rufbereitschaft",
+    "arbeitszeit#wochenarbeitszeit",
+    "arbeitszeit#arbeit-an-feiertagen-und-wochenenden",
+    "arbeitszeit#hoechstarbeitszeit-und-pausen",
+    "urlaub-abwesenheit#elternzeit"
+   ]
+  }
+ },
+ "a26": {
+  "question": "Wie viel Geld habe ich pro Jahr für Weiterbildung?",
+  "kind": "german",
+  "expected": [
+   "benefits#weiterbildung"
+  ],
+  "retrieved": {
+   "bm25": [
+    "benefits#weiterbildung",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#sonderurlaub",
+    "benefits#firmenevents",
+    "arbeitszeit#rufbereitschaft"
+   ],
+   "dense": [
+    "benefits#weiterbildung",
+    "benefits#essen-und-getraenke",
+    "arbeitszeit#rufbereitschaft",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "arbeitszeit#ueberstunden"
+   ],
+   "hybrid": [
+    "benefits#weiterbildung",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "arbeitszeit#rufbereitschaft",
+    "benefits#essen-und-getraenke",
+    "arbeitszeit#ueberstunden"
+   ],
+   "reranked": [
+    "benefits#weiterbildung",
+    "arbeitszeit#rufbereitschaft",
+    "benefits#essen-und-getraenke",
+    "arbeitszeit#ueberstunden",
+    "benefits#dienstrad"
+   ]
+  }
+ },
+ "a27": {
+  "question": "Bis zu welchem Preis kann ich ein E-Bike leasen?",
+  "kind": "german",
+  "expected": [
+   "benefits#dienstrad"
+  ],
+  "retrieved": {
+   "bm25": [
+    "benefits#dienstrad",
+    "urlaub-abwesenheit#resturlaub-und-uebertrag",
+    "arbeitszeit#kernzeit",
+    "urlaub-abwesenheit#krankmeldung",
+    "kunden-faq#wie-kuendige-ich-mein-abo"
+   ],
+   "dense": [
+    "benefits#dienstrad",
+    "kunden-faq#gibt-es-eine-testphase",
+    "arbeitszeit#rufbereitschaft",
+    "benefits#deutschlandticket",
+    "eintritt-austritt#kuendigungsfristen"
+   ],
+   "hybrid": [
+    "benefits#dienstrad",
+    "kunden-faq#wie-kuendige-ich-mein-abo",
+    "urlaub-abwesenheit#krankmeldung",
+    "urlaub-abwesenheit#resturlaub-und-uebertrag",
+    "kunden-faq#gibt-es-eine-testphase"
+   ],
+   "reranked": [
+    "benefits#dienstrad",
+    "travel-expenses#using-your-own-car",
+    "remote-work#home-office-equipment",
+    "arbeitszeit#rufbereitschaft",
+    "pricing-plans#team-plan"
+   ]
+  }
+ },
+ "a28": {
+  "question": "Wann ist die Kernzeit?",
+  "kind": "german",
+  "expected": [
+   "arbeitszeit#kernzeit"
+  ],
+  "retrieved": {
+   "bm25": [
+    "arbeitszeit#kernzeit"
+   ],
+   "dense": [
+    "arbeitszeit#kernzeit",
+    "arbeitszeit#arbeit-an-feiertagen-und-wochenenden",
+    "arbeitszeit#wochenarbeitszeit",
+    "eintritt-austritt#probezeit",
+    "urlaub-abwesenheit#krankmeldung"
+   ],
+   "hybrid": [
+    "arbeitszeit#kernzeit",
+    "arbeitszeit#arbeit-an-feiertagen-und-wochenenden",
+    "arbeitszeit#wochenarbeitszeit",
+    "eintritt-austritt#probezeit",
+    "urlaub-abwesenheit#krankmeldung"
+   ],
+   "reranked": [
+    "arbeitszeit#kernzeit",
+    "eintritt-austritt#probezeit",
+    "urlaub-abwesenheit#elternzeit",
+    "benefits#firmenevents",
+    "arbeitszeit#arbeit-an-feiertagen-und-wochenenden"
+   ]
+  }
+ },
+ "a29": {
+  "question": "Kann ich meine Boards als CSV exportieren?",
+  "kind": "german",
+  "expected": [
+   "kunden-faq#kann-ich-meine-daten-exportieren"
+  ],
+  "retrieved": {
+   "bm25": [
+    "kunden-faq#kann-ich-meine-daten-exportieren",
+    "security-data#data-deletion-after-cancellation",
+    "pricing-plans#free-plan",
+    "pricing-plans#team-plan",
+    "api-reference#error-codes"
+   ],
+   "dense": [
+    "kunden-faq#kann-ich-meine-daten-exportieren",
+    "security-data#data-deletion-after-cancellation",
+    "kunden-faq#unterstuetzt-talvi-boards-die-barrierefreiheit",
+    "kunden-faq#gibt-es-talvi-boards-als-app",
+    "kunden-faq#bekomme-ich-eine-rechnung-mit-umsatzsteuer"
+   ],
+   "hybrid": [
+    "kunden-faq#kann-ich-meine-daten-exportieren",
+    "security-data#data-deletion-after-cancellation",
+    "pricing-plans#free-plan",
+    "api-reference#error-codes",
+    "kunden-faq#unterstuetzt-talvi-boards-die-barrierefreiheit"
+   ],
+   "reranked": [
+    "kunden-faq#kann-ich-meine-daten-exportieren",
+    "security-data#data-deletion-after-cancellation",
+    "security-data#backups",
+    "pricing-plans#enterprise-plan",
+    "billing-refunds#how-to-cancel"
+   ]
+  }
+ },
+ "a30": {
+  "question": "Wie viele Tage Sonderurlaub bekomme ich bei der Geburt meines Kindes?",
+  "kind": "german",
+  "expected": [
+   "urlaub-abwesenheit#sonderurlaub"
+  ],
+  "retrieved": {
+   "bm25": [
+    "urlaub-abwesenheit#sonderurlaub",
+    "kunden-faq#bekomme-ich-eine-rechnung-mit-umsatzsteuer",
+    "urlaub-abwesenheit#krankmeldung",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "benefits#essen-und-getraenke"
+   ],
+   "dense": [
+    "urlaub-abwesenheit#sonderurlaub",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#elternzeit",
+    "urlaub-abwesenheit#urlaub-beantragen",
+    "urlaub-abwesenheit#krankmeldung"
+   ],
+   "hybrid": [
+    "urlaub-abwesenheit#sonderurlaub",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#krankmeldung",
+    "urlaub-abwesenheit#urlaub-beantragen",
+    "benefits#essen-und-getraenke"
+   ],
+   "reranked": [
+    "urlaub-abwesenheit#sonderurlaub",
+    "urlaub-abwesenheit#elternzeit",
+    "urlaub-abwesenheit#urlaub-beantragen",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#krankmeldung"
+   ]
+  }
+ },
+ "a31": {
+  "question": "How many vacation days does a full-time employee get?",
+  "kind": "cross-language",
+  "expected": [
+   "urlaub-abwesenheit#urlaubsanspruch"
+  ],
+  "retrieved": {
+   "bm25": [
+    "billing-refunds#refunds-for-annual-plans",
+    "billing-refunds#refunds-for-monthly-plans",
+    "security-data#backups",
+    "it-security#your-laptop",
+    "travel-expenses#per-diem-and-meals"
+   ],
+   "dense": [
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "remote-work#working-from-abroad",
+    "urlaub-abwesenheit#urlaub-beantragen",
+    "billing-refunds#refunds-for-monthly-plans",
+    "security-data#backups"
+   ],
+   "hybrid": [
+    "billing-refunds#refunds-for-monthly-plans",
+    "security-data#backups",
+    "remote-work#office-days",
+    "support-sla#first-response-times",
+    "it-security#your-laptop"
+   ],
+   "reranked": [
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#urlaub-beantragen",
+    "urlaub-abwesenheit#sonderurlaub",
+    "eintritt-austritt#letzter-arbeitstag",
+    "remote-work#working-from-abroad"
+   ]
+  }
+ },
+ "a32": {
+  "question": "Is there a monthly subsidy for cycling to work?",
+  "kind": "cross-language",
+  "expected": [
+   "benefits#deutschlandticket"
+  ],
+  "retrieved": {
+   "bm25": [
+    "remote-work#home-office-equipment",
+    "remote-work#working-from-abroad",
+    "billing-refunds#refunds-for-monthly-plans",
+    "remote-work#office-days",
+    "it-security#passwords-and-accounts"
+   ],
+   "dense": [
+    "remote-work#working-from-abroad",
+    "travel-expenses#using-your-own-car",
+    "remote-work#home-office-equipment",
+    "travel-expenses#company-credit-cards",
+    "billing-refunds#refunds-for-monthly-plans"
+   ],
+   "hybrid": [
+    "remote-work#working-from-abroad",
+    "remote-work#home-office-equipment",
+    "billing-refunds#refunds-for-monthly-plans",
+    "remote-work#office-days",
+    "remote-work#working-from-cafes-and-public-places"
+   ],
+   "reranked": [
+    "support-sla#service-credits",
+    "benefits#dienstrad",
+    "travel-expenses#submitting-expenses",
+    "billing-refunds#refunds-for-monthly-plans",
+    "travel-expenses#using-your-own-car"
+   ]
+  }
+ },
+ "a33": {
+  "question": "What is the notice period during probation?",
+  "kind": "cross-language",
+  "expected": [
+   "eintritt-austritt#kuendigungsfristen"
+  ],
+  "retrieved": {
+   "bm25": [
+    "billing-refunds#downgrading-a-plan",
+    "remote-work#availability",
+    "travel-expenses#hotels",
+    "pricing-plans#adding-and-removing-seats",
+    "billing-refunds#refunds-for-annual-plans"
+   ],
+   "dense": [
+    "billing-refunds#failed-payments",
+    "eintritt-austritt#probezeit",
+    "eintritt-austritt#kuendigungsfristen",
+    "billing-refunds#refunds-for-annual-plans",
+    "api-reference#error-codes"
+   ],
+   "hybrid": [
+    "billing-refunds#failed-payments",
+    "billing-refunds#refunds-for-annual-plans",
+    "billing-refunds#downgrading-a-plan",
+    "remote-work#availability",
+    "eintritt-austritt#probezeit"
+   ],
+   "reranked": [
+    "eintritt-austritt#kuendigungsfristen",
+    "eintritt-austritt#probezeit",
+    "eintritt-austritt#arbeitszeugnis",
+    "billing-refunds#failed-payments",
+    "security-data#reporting-a-vulnerability"
+   ]
+  }
+ },
+ "a34": {
+  "question": "Wie viel Kilometergeld gibt es für Fahrten mit dem eigenen Auto?",
+  "kind": "cross-language",
+  "expected": [
+   "travel-expenses#using-your-own-car"
+  ],
+  "retrieved": {
+   "bm25": [
+    "urlaub-abwesenheit#sonderurlaub"
+   ],
+   "dense": [
+    "travel-expenses#using-your-own-car",
+    "benefits#dienstrad",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "urlaub-abwesenheit#sonderurlaub",
+    "benefits#deutschlandticket"
+   ],
+   "hybrid": [
+    "urlaub-abwesenheit#sonderurlaub",
+    "travel-expenses#using-your-own-car",
+    "benefits#dienstrad",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "benefits#deutschlandticket"
+   ],
+   "reranked": [
+    "travel-expenses#using-your-own-car",
+    "travel-expenses#per-diem-and-meals",
+    "benefits#dienstrad",
+    "travel-expenses#hotels",
+    "arbeitszeit#rufbereitschaft"
+   ]
+  }
+ },
+ "a35": {
+  "question": "Wie viel kostet der Team-Plan pro Nutzer im Monat?",
+  "kind": "cross-language",
+  "expected": [
+   "pricing-plans#team-plan"
+  ],
+  "retrieved": {
+   "bm25": [
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "arbeitszeit#ueberstunden",
+    "benefits#deutschlandticket",
+    "eintritt-austritt#probezeit",
+    "pricing-plans#team-plan"
+   ],
+   "dense": [
+    "pricing-plans#team-plan",
+    "benefits#weiterbildung",
+    "pricing-plans#business-plan",
+    "arbeitszeit#rufbereitschaft",
+    "benefits#firmenevents"
+   ],
+   "hybrid": [
+    "pricing-plans#team-plan",
+    "arbeitszeit#ueberstunden",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "benefits#deutschlandticket",
+    "pricing-plans#business-plan"
+   ],
+   "reranked": [
+    "pricing-plans#team-plan",
+    "pricing-plans#business-plan",
+    "arbeitszeit#rufbereitschaft",
+    "benefits#weiterbildung",
+    "pricing-plans#overview-of-the-plans"
+   ]
+  }
+ },
+ "a36": {
+  "question": "Wie hoch ist das Homeoffice-Budget?",
+  "kind": "cross-language",
+  "expected": [
+   "remote-work#home-office-equipment"
+  ],
+  "retrieved": {
+   "bm25": [
+    "remote-work#home-office-equipment",
+    "benefits#essen-und-getraenke",
+    "benefits#weiterbildung"
+   ],
+   "dense": [
+    "benefits#essen-und-getraenke",
+    "benefits#weiterbildung",
+    "remote-work#home-office-equipment",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "benefits#betriebliche-altersvorsorge"
+   ],
+   "hybrid": [
+    "benefits#essen-und-getraenke",
+    "remote-work#home-office-equipment",
+    "benefits#weiterbildung",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "benefits#betriebliche-altersvorsorge"
+   ],
+   "reranked": [
+    "remote-work#home-office-equipment",
+    "benefits#weiterbildung",
+    "benefits#essen-und-getraenke",
+    "arbeitszeit#rufbereitschaft",
+    "benefits#dienstrad"
+   ]
+  }
+ },
+ "a37": {
+  "question": "Which plans have single sign-on, and what does a Business seat cost per year?",
+  "kind": "multi-hop",
+  "expected": [
+   "security-data#single-sign-on-and-two-factor-authentication",
+   "pricing-plans#business-plan"
+  ],
+  "retrieved": {
+   "bm25": [
+    "pricing-plans#business-plan",
+    "pricing-plans#team-plan",
+    "pricing-plans#overview-of-the-plans",
+    "security-data#single-sign-on-and-two-factor-authentication",
+    "billing-refunds#refunds-for-annual-plans"
+   ],
+   "dense": [
+    "pricing-plans#enterprise-plan",
+    "pricing-plans#business-plan",
+    "pricing-plans#overview-of-the-plans",
+    "security-data#single-sign-on-and-two-factor-authentication",
+    "billing-refunds#refunds-for-annual-plans"
+   ],
+   "hybrid": [
+    "pricing-plans#business-plan",
+    "pricing-plans#overview-of-the-plans",
+    "pricing-plans#enterprise-plan",
+    "security-data#single-sign-on-and-two-factor-authentication",
+    "billing-refunds#refunds-for-annual-plans"
+   ],
+   "reranked": [
+    "pricing-plans#business-plan",
+    "security-data#single-sign-on-and-two-factor-authentication",
+    "pricing-plans#overview-of-the-plans",
+    "pricing-plans#enterprise-plan",
+    "pricing-plans#adding-and-removing-seats"
+   ]
+  }
+ },
+ "a38": {
+  "question": "If we downgrade from Business to Team, what happens to SSO and how many API requests per minute do we get?",
+  "kind": "multi-hop",
+  "expected": [
+   "billing-refunds#downgrading-a-plan",
+   "api-reference#rate-limits"
+  ],
+  "retrieved": {
+   "bm25": [
+    "api-reference#rate-limits",
+    "billing-refunds#downgrading-a-plan",
+    "api-reference#authentication",
+    "api-reference#api-versioning",
+    "pricing-plans#team-plan"
+   ],
+   "dense": [
+    "billing-refunds#downgrading-a-plan",
+    "api-reference#rate-limits",
+    "api-reference#authentication",
+    "api-reference#api-versioning",
+    "api-reference#pagination"
+   ],
+   "hybrid": [
+    "api-reference#rate-limits",
+    "billing-refunds#downgrading-a-plan",
+    "api-reference#authentication",
+    "api-reference#api-versioning",
+    "api-reference#webhooks"
+   ],
+   "reranked": [
+    "api-reference#rate-limits",
+    "billing-refunds#downgrading-a-plan",
+    "api-reference#authentication",
+    "support-sla#uptime-commitment",
+    "support-sla#first-response-times"
+   ]
+  }
+ },
+ "a39": {
+  "question": "What is the per diem for a full day away, and by when must I submit the expense?",
+  "kind": "multi-hop",
+  "expected": [
+   "travel-expenses#per-diem-and-meals",
+   "travel-expenses#submitting-expenses"
+  ],
+  "retrieved": {
+   "bm25": [
+    "travel-expenses#per-diem-and-meals",
+    "travel-expenses#submitting-expenses",
+    "travel-expenses#company-credit-cards",
+    "travel-expenses#hotels",
+    "travel-expenses#using-your-own-car"
+   ],
+   "dense": [
+    "travel-expenses#per-diem-and-meals",
+    "travel-expenses#submitting-expenses",
+    "travel-expenses#hotels",
+    "travel-expenses#using-your-own-car",
+    "travel-expenses#trains-and-flights"
+   ],
+   "hybrid": [
+    "travel-expenses#per-diem-and-meals",
+    "travel-expenses#submitting-expenses",
+    "travel-expenses#hotels",
+    "travel-expenses#using-your-own-car",
+    "travel-expenses#company-credit-cards"
+   ],
+   "reranked": [
+    "travel-expenses#per-diem-and-meals",
+    "travel-expenses#submitting-expenses",
+    "billing-refunds#refunds-for-monthly-plans",
+    "billing-refunds#refunds-for-annual-plans",
+    "support-sla#service-credits"
+   ]
+  }
+ },
+ "a40": {
+  "question": "When the office is closed between Christmas and New Year, how many vacation days are planned for that, and how many do I have in total at 5 days a week?",
+  "kind": "multi-hop",
+  "expected": [
+   "urlaub-abwesenheit#urlaub-beantragen",
+   "urlaub-abwesenheit#urlaubsanspruch"
+  ],
+  "retrieved": {
+   "bm25": [
+    "remote-work#office-days",
+    "support-sla#uptime-commitment",
+    "remote-work#working-from-abroad",
+    "billing-refunds#refunds-for-annual-plans",
+    "pricing-plans#free-trial"
+   ],
+   "dense": [
+    "billing-refunds#refunds-for-monthly-plans",
+    "urlaub-abwesenheit#urlaub-beantragen",
+    "remote-work#office-days",
+    "remote-work#working-from-abroad",
+    "support-sla#first-response-times"
+   ],
+   "hybrid": [
+    "remote-work#office-days",
+    "remote-work#working-from-abroad",
+    "support-sla#uptime-commitment",
+    "billing-refunds#refunds-for-annual-plans",
+    "pricing-plans#free-trial"
+   ],
+   "reranked": [
+    "urlaub-abwesenheit#urlaub-beantragen",
+    "urlaub-abwesenheit#urlaubsanspruch",
+    "remote-work#working-from-abroad",
+    "support-sla#first-response-times",
+    "billing-refunds#refunds-for-annual-plans"
+   ]
+  }
+ },
+ "c01": {
+  "id": "c01",
+  "kind": "paraphrase",
+  "first": "How many vacation days does a full-time employee get?",
+  "second": "How many days of vacation do full-time employees have?",
+  "same": true,
+  "similarity": 0.988,
+  "hit": true
+ },
+ "c02": {
+  "id": "c02",
+  "kind": "paraphrase",
+  "first": "What does API error TB-4031 mean?",
+  "second": "What does the error code TB-4031 mean?",
+  "same": true,
+  "similarity": 0.9746,
+  "hit": false
+ },
+ "c03": {
+  "id": "c03",
+  "kind": "paraphrase",
+  "first": "Where is customer data stored?",
+  "second": "Where is the customer data stored?",
+  "same": true,
+  "similarity": 0.9971,
+  "hit": true
+ },
+ "c04": {
+  "id": "c04",
+  "kind": "paraphrase",
+  "first": "How do I cancel my plan?",
+  "second": "How can I cancel my plan?",
+  "same": true,
+  "similarity": 0.9984,
+  "hit": true
+ },
+ "c05": {
+  "id": "c05",
+  "kind": "paraphrase",
+  "first": "Wie lang ist die Probezeit?",
+  "second": "Wie lange dauert die Probezeit?",
+  "same": true,
+  "similarity": 0.9906,
+  "hit": false
+ },
+ "c06": {
+  "id": "c06",
+  "kind": "paraphrase",
+  "first": "What is the hotel limit per night in Germany?",
+  "second": "What's the hotel limit per night in Germany?",
+  "same": true,
+  "similarity": 0.9953,
+  "hit": true
+ },
+ "c07": {
+  "id": "c07",
+  "kind": "paraphrase",
+  "first": "Which payment methods do you accept?",
+  "second": "What payment methods do you accept?",
+  "same": true,
+  "similarity": 0.9986,
+  "hit": true
+ },
+ "c08": {
+  "id": "c08",
+  "kind": "paraphrase",
+  "first": "Wann ist die Kernzeit?",
+  "second": "Wann ist bei uns Kernzeit?",
+  "same": true,
+  "similarity": 0.9809,
+  "hit": true
+ },
+ "c09": {
+  "id": "c09",
+  "kind": "paraphrase",
+  "first": "How long are backups kept?",
+  "second": "For how long are the backups kept?",
+  "same": true,
+  "similarity": 0.9935,
+  "hit": true
+ },
+ "c10": {
+  "id": "c10",
+  "kind": "paraphrase",
+  "first": "Is there a free trial?",
+  "second": "Is there a free trial period?",
+  "same": true,
+  "similarity": 0.9573,
+  "hit": false
+ },
+ "c25": {
+  "id": "c25",
+  "kind": "paraphrase",
+  "first": "How do I cancel my plan?",
+  "second": "How can I end my subscription?",
+  "same": true,
+  "similarity": 0.8966,
+  "hit": false
+ },
+ "c26": {
+  "id": "c26",
+  "kind": "paraphrase",
+  "first": "What does error TB-4290 mean?",
+  "second": "What is error TB-4290?",
+  "same": true,
+  "similarity": 0.996,
+  "hit": false
+ },
+ "c11": {
+  "id": "c11",
+  "kind": "trap",
+  "first": "Can I get a full refund within 14 days?",
+  "second": "Can I get a full refund within 30 days?",
+  "same": false,
+  "similarity": 0.9591,
+  "hit": false
+ },
+ "c12": {
+  "id": "c12",
+  "kind": "trap",
+  "first": "Can I get a refund on a monthly plan?",
+  "second": "Can I get a refund on an annual plan?",
+  "same": false,
+  "similarity": 0.9683,
+  "hit": false
+ },
+ "c13": {
+  "id": "c13",
+  "kind": "trap",
+  "first": "What does API error TB-4031 mean?",
+  "second": "What does API error TB-4030 mean?",
+  "same": false,
+  "similarity": 0.9526,
+  "hit": false
+ },
+ "c14": {
+  "id": "c14",
+  "kind": "trap",
+  "first": "What is the API rate limit on the Team plan?",
+  "second": "What is the API rate limit on the Business plan?",
+  "same": false,
+  "similarity": 0.9367,
+  "hit": false
+ },
+ "c15": {
+  "id": "c15",
+  "kind": "trap",
+  "first": "Wie viele Urlaubstage haben Vollzeitkräfte?",
+  "second": "Wie viele Urlaubstage haben Teilzeitkräfte?",
+  "same": false,
+  "similarity": 0.9557,
+  "hit": false
+ },
+ "c16": {
+  "id": "c16",
+  "kind": "trap",
+  "first": "What is the hotel limit per night in Germany?",
+  "second": "What is the hotel limit per night in London?",
+  "same": false,
+  "similarity": 0.9279,
+  "hit": false
+ },
+ "c17": {
+  "id": "c17",
+  "kind": "trap",
+  "first": "Wie lang ist die Kündigungsfrist in der Probezeit?",
+  "second": "Wie lang ist die Kündigungsfrist nach der Probezeit?",
+  "same": false,
+  "similarity": 0.9931,
+  "hit": false
+ },
+ "c18": {
+  "id": "c18",
+  "kind": "trap",
+  "first": "Is single sign-on available on the Team plan?",
+  "second": "Is single sign-on available on the Business plan?",
+  "same": false,
+  "similarity": 0.9476,
+  "hit": false
+ },
+ "c19": {
+  "id": "c19",
+  "kind": "trap",
+  "first": "Can I work from home?",
+  "second": "Can I work from abroad?",
+  "same": false,
+  "similarity": 0.9294,
+  "hit": false
+ },
+ "c20": {
+  "id": "c20",
+  "kind": "trap",
+  "first": "What is the P1 response time on Business?",
+  "second": "What is the P1 response time on Enterprise?",
+  "same": false,
+  "similarity": 0.9522,
+  "hit": false
+ },
+ "c21": {
+  "id": "c21",
+  "kind": "trap",
+  "first": "How much is the per diem for a full day in Germany?",
+  "second": "How much is the per diem for a full day abroad?",
+  "same": false,
+  "similarity": 0.9586,
+  "hit": false
+ },
+ "c22": {
+  "id": "c22",
+  "kind": "trap",
+  "first": "Can I take a first-class train?",
+  "second": "Can I take a first-class flight?",
+  "same": false,
+  "similarity": 0.9602,
+  "hit": false
+ },
+ "c23": {
+  "id": "c23",
+  "kind": "trap",
+  "first": "Wie viele Tage Sonderurlaub gibt es bei der Hochzeit?",
+  "second": "Wie viele Tage Sonderurlaub gibt es bei der Geburt eines Kindes?",
+  "same": false,
+  "similarity": 0.9406,
+  "hit": false
+ },
+ "c24": {
+  "id": "c24",
+  "kind": "trap",
+  "first": "How long is the free trial?",
+  "second": "How long is the refund window?",
+  "same": false,
+  "similarity": 0.8722,
+  "hit": false
+ }
+}
